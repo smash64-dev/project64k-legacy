@@ -1,0 +1,28 @@
+// PJ64 Official Cheats Database (Project64.cht)
+//    NTSC Cheats by Eagle
+
+
+Notes:
+
+Goldeneye 007:
+Thank You to all those who were patient while I was working with the Goldeneye 007 cheats.  I think they are all working now.  They aren't completely finished due to the large amount of them, but I'm still working on the rest.
+
+Super Mario Brothers:
+The new Super Mario 64 cheats for the NTSC region are not complete either, due to a bunch of them not working, I have to test them all to make sure they do what they are supposed to individually.
+
+Range Cheat Codes:
+The maximum range values of some of the cheat codes were not known at the time they were added to the database.  For this reason they were set to the full hex range of 00 to FF or 0000 to FFFF.  While some range cheat codes use all of these range values, some will crash or not produce the desired effect if the range is set to high.  If you find a maximum or minimum range value, check the readme file for information on how to contact me.
+
+Multiple Level Codes:
+Some codes may crash the game when used with other codes, this is normal.  Games that have multiple codes with the same function but for different levels, such as Goldeneye 007 and Perfect Dark, will crash if you have more than one level activated at the same time.
+
+Thank You:
+I would first like the thank The Gentleman for giving me the pleasure of working with him and for the large amount of time and effort he has spent to complete his work on the PAL region cheats.  I look forward to further releases of the cheat database.
+I would also like to thank Smiff for all of the help and support he has given me in producing the cheat database since its creation and even in the past few months while working on the new system for v1.4.  I don't think this project would have come as far as it has without him.
+Though our paths haven't crossed much while working the cheat database, I would like to thank Jabo for the work he has done with his plug-ins.  He has been a great asset to the N64 emulation community for more than one emulator and deserves great praise for the quality of graphics he has managed to produce.
+Next, I would like to especially thank Zilmar for the effort he has put into the cheat system for this final version of Project 64 and as always for the many years he has spent working on the emulator.  I wish him the best of luck in the future.
+Finally I would like to thank all the staff at Emulation64/Emutalk and all the members of the EmuTalk forums that gave their support and helped in the production of the cheat database.
+
+One Final Goodbye To Project 64:
+Project 64 has accomplished so much that no other emulator was able to.  It is filled with a history of breaking records and adding abilities that seemed impossible to emulate.  It has left a large mark on the face of emulation and should another emulator ever exceed it ability, it will still never be forgotten.  It is with great sorrow that I watch the end of production on the Project 64 emulator, but as we all know...
+All Good Things Must Come To An End.

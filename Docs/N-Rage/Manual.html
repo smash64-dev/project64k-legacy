@@ -1,0 +1,201 @@
+<html>
+<body>
+<ol type="I">
+	<li><a href="#GE00">General</a></li>
+    <li><a href="#CO00">Configuration</a></li>
+	<ul>
+      <li><a href="#CO10">Main-Configuration</a></li>
+      <li><a href="#CO20">Controller-Configuration</a></li>
+	  <ul>
+	    <li><a href="#CO21">Assigning Controls</a></li>
+		<li><a href="#CO22">Saving Profiles</a></li>
+		<li><a href="#CO23">Loading Profiles</a></li>
+	  </ul>
+      <li><a href="#CO30">Modifier-Configuration</a></li>
+    </ul>
+	<li><a href="#PR00">Profiles</a></li>
+    <li><a href="#RA00">RAW-Mode</a></li>
+    <li><a href="#ME00">MemPaks</a></li>
+    <li><a href="#RU00">RumblePaks</a></li>
+    <li><a href="#MO00">Modifiers</a></li>
+	<ul>
+      <li><a href="#MO10">Movement Modifier</a></li>
+      <li><a href="#MO20">Macro</a></li>
+      <li><a href="#MO30">Configuration Modifier</a></li>
+    </ul>
+	<li><a href="#AM00">Default Analog-Stick Range</a></li>
+	<li><a href="#SS00">Device Specific Settings</a><br>
+	<ul>
+	  <li><a href="#SS10">GamePad Specific Settings</a><br>
+	  <li><a href="#SS30">Mouse Specific Settings</a><br>
+	</ul>
+	<li><a href="#EM00">During Emulation</a></li>
+</ol>
+
+<ul>
+
+  <li><a name="GE00"></a><b>General</b><br>
+  I tried to keep the configuration of the Plugin as easy as possible, but the amount of
+  Options may be confusing at first, the Configuration itself isnt difficult,
+  so I will keep that short and focus on explaining the Features.<br></li>
+  <br>
+  
+ <a name="CO00"><b>Configuration</b></a>
+ <ul>
+  <li><a name="CO10"></a><b>Main-Configuration</b><br>
+  There U have a Overview of all 4 Controllers, further U can choose the Pak
+  (which U would plugin in the N64-Controller).<br>
+  <b>Important:</b> Switching the first Controller On/Off requires to restart the Emulation,
+  this is a limitation of the real N64. Switching Paks while running should only be done
+  when the Game <b>asks for it</b>.<br>
+  For explaination of <b>RAW-Mode</b> read on <a href="#RA00">here</a>.<br>
+  If u selected MemPak and RAW U can select the File for the MemPak, the <b>DropDown-List</b> displays
+  the existing MemPaks in the current Folder, to change Folder press the <b>Icon</b> on the right.
+  To create a new MemPak simply enter a new Filename.<br></li>
+  <br>
+  
+  <li><a name="CO20"></a><b>Controller-Configuration</b><br>
+  Here U can setup the emulated N64-Controller<br>
+  Choose the desired N64-Controller in the <b>DropDown-List</b> on the Upper Left.<br>
+  <b>Normal</b> and <b>Alt</b> switch between the Pages for Normal/Alternate Controls.
+  (Read <a href="#MO30">here</a> how to use them)<br>
+  U can set the <a href="#SS00">Device Specific Settings</a> for the Device now.<br>
+  <a name="CO21"></a><b>Assigning Controls:</b><br>
+  Now click on any of the Buttons and set em by pressing or moving Controls 
+  on the Devices. Pressing Escape will delete the clicked Button.<br>
+  <a name="CO22"></a><b>Saving Profiles:</b><br>
+  Select a Filename and press Ok...Done<br>
+  <a name="CO23"></a><b>Loading Profiles:</b><br>
+  Select a Filename and press Ok. It will set the Controls, <a href="#MO00">Modifiers</a>
+  and <a href="#SS00">Device Specific Settings</a>. It <b>wont</b> change anything that u can
+  adjust in the <a href="#CO10">Main-Configuration</a> Dialog.<br>
+  If the Profile is from Ur own System the right GamePad(if used) will be choosen automatically.
+  If the Profile is from another System and contains a GamePad, the Plugin will search for the same GamePad
+  on Ur System and chooses the first it finds automatically.<br>
+  If the Plugin cant find the same GamePad it chooses None, U can set a GamePad Urself, but
+  make sure it has the Controls that are applyed<br>  
+  </li>
+  <br>
+
+  <li><a name="CO30"></a><b>Modifier-Configuration</b><br>
+  U get here by pressing <b>Set</b> beneath the Modifier in the <a href="#CO20">Controller-Configuration</a>.<br>
+  Choose the Type of Modifier in the <b>Dropdown-List</b><br>
+  Read further to the <a href="#MO00">Modifiers</a> for more Details.<br>
+  </li>
+  <br>
+ </ul>
+ 
+  <li><a name="PR00"></a><b>Profiles</b></li>
+  A Profile is the Setup of one Controller with <a href="#MO00">Modifiers</a>
+  and <a href="#SS00">Device Specific Settings</a>. A Profile will work on other Systems
+  too. The Profile-Format is new with 1.60 and I think I don't have to break this Format
+  in future Versions.<br>
+  Saving and Loading can be done in the <a href="#CO20">Controller-Configuration</a> Dialog.<br>
+  </li>
+  <br>
+  
+  <li><a name="RA00"></a><b>RAW-Mode</b><br>
+  RAW-Mode determines if the Plugin has to process the Data of the Paks,
+  if its unchecked the Emulator will process it( or just ignore it).<br>
+  Until now Emulators only handle MemPaks, so U need RAW in combination with
+  RumblePaks, it should be safe to let the Plugin handle the Data, since u can
+  be sure the MemPaks will work on any Emulator that uses the Plugin.<br>
+  </li>
+  <br>
+  
+  <li><a name="ME00"></a><b>MemPaks</b><br>
+  Often called Controller-Pak by Nintendo, these store Stuff on many Games, the Plugin
+  fully emulates them, it will be likely compatible to the MemPaks of most Emulators,
+  but not with all, backup MemPaks if u aren't sure they will work, they may get killed.<br>
+  </li>
+  <br>
+  
+  <li><a name="RU00"></a><b>RumblePaks</b><br>
+  Rumble Paks vibrate on Action (Yeah!!!!) when the Game supports them. The Plugin emulates
+  this with Force-FeedBack. RAW Mode is required since no Emu supports it itself (yet...).<br>
+  </li>
+  <br>
+
+ <li><a name="MO00"><b>Modifiers</b></a></li><br>
+ All 6 Modifiers work seperate and can be combined.<br>
+ They need to be assigned to a Control like the N64-Buttons/Stick, and can be configured in the
+ <a href="#CO30">Modifier-Configuration</a> Dialog.<br>
+ If u set <b>Toggle</b>, the Modifier will change state each time u press the applyed 
+ Modifier-Control, i,e if u have a pressed it once it will do its work until U press again.
+ U can do a allota of Stuff with them( even useless Stuff =), so make yourself familar with them
+ <ul>
+  <li><a name="MO10"></a><b>Movement Modifier</b><br>
+  This Modifier alters the Movement of the N64 Analogstick. It can be applied to
+  1 or both <b>Axis</b>, and both Axis can be <b>negated</b> seperate. U dont need to choose a Axis
+  if u just want to negate.<br>
+  </li>
+  <br>
+  
+  <li><a name="MO20"></a><b>Macro</b><br>
+  A Macro is a shortcut to press various Buttons with a single Control. Additionally
+  its possible to choose <b>RapidFire</b> (doesnt affect Axes) for the Buttons in this Modifier.<br>
+  Choose which Buttons/Axes U want to have in this Macro. Axes will be assigned the
+  <a href="#AM00">Default Axe Movement</a> Value.<br>
+  </li>
+  <br>
+  
+  <li><a name="MO30"></a><b>Configuration Modifier</b><br>
+  This is the most difficult one.
+  U have 2 complete setups for each Controller, <b>Normal</b> and <b>Alternate</b>,
+  both can contain a complete Controller-Setup. However, each time u start the Emulation,
+  the Normal-Setup will be used.<br>
+  Now u can assign one or more "Configuration Modifier", there u can select which Controls U
+  want to use from the Alternate Setup. As long the Modifier is active these Alternate Controls
+  will be used.<br>
+  Additionally u can toggle Mouse-Style from, it changes whatever Mode u selected in
+  <a href="#SS30">Mouse Specific Settings</a> to the Opposite, again as long the Modifier
+  is active.<br>
+  </li>
+  <br>
+ </ul>
+
+  <li><a name="AM00"></a><b>Default Analog-Stick Range</b><br>
+  This sets the maximum Range of the N64-Analogstick. 63% reflects the Range of a typical
+  N64-Controller, it makes sense to set this to a higher Value when using a Mouse.
+  A <a href="#MO10">Movement Modifier</a> can pass the maximum Range<br>
+  </li>
+  <br>
+  
+  <li><a name="SS00"></a><b>Device Specific Settings</b><br>
+  err yes...theire Device Specific I should tellya
+  </li>
+ <ul>
+  <li><a name="SS10"></a><b>GamePad Specific Settings</b><br>
+  In the <b>Dropdownlist</b> U can choose between the installed GamePads/Joysticks.
+  Choose the one U want to use.<br>
+  <b>DeadZone</b> is the Portion of an analogue control's Range that will be ignored.
+  My Plugin additionaly recalculates the lost Amount of the Range, so U dont start with 20%
+  Movement when U move over the edge of the DeadZone with DeadZone set to 20%.<br>
+  <b>Threshold</b> is used when U apply a analogue control to a Button. It determines how
+  far U have to push the analogue control to "press" the assigned Button.<br>
+  </li>
+  <br>
+  
+  <li><a name="SS30"></a><b>Mouse Specific Settings</b><br>
+  <b>Mouse Sensitivity</b> is how sturdy the Mouse reacts on ur Movement.
+  <b>Absolute Mouse</b> sets the Mouse-Mode to Absolute, most Games however
+  will play better with this unchecked.<br>
+  When <b>Absolute Mouse</b> isnt checked a Semi-Relative Mode is used. I found
+  Relative not working good enough so I changed it a bit. Therefore Semi-Relative.
+  U can toggle the opposite Mouse-Mode ingame with a <a href="#MO30">Configuration Modifier</a>.<br>
+  </li>
+  <br>
+ </ul>
+  <br>
+  
+  <li><a name="EM00"></a><b>During Emulation</b><br>
+  When You use the Mouse the Pointer will be locked at start. Press <b>Tab</b> on the KeyBoard
+  to release it.
+  All Modifiers are disabled and Normal-Controls are used at start.
+  Everything else will response to the Controls u set in the <a href="#CO20">Controller-Configuration</a>.<br>
+  </li>
+  <br>
+</ul>
+</body>
+</html>
+

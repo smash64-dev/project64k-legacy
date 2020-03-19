@@ -1,0 +1,7 @@
+For Patching:
+1) Extract the "Smashville Patch" folder contained in this ZIP archive to a destination of your choosing.
+2) Place a North American Super Smash Brothers ROM into the "Smashville Patch" folder.
+3) Drag and drop the ROM onto patch.bat
+
+For Project64KVE Netplay:
+1) Replace the Project64.rdb file in the root folder of your emulator with the one contained in the archive. (this rdb supports 19XXTE 0.11 too!)

@@ -1,0 +1,306 @@
+Project 64 Official Cheats Database (Project64.cht) Changes
+    NTSC cheats by Eagle
+    PAL cheats by The Gentleman
+
+-----Version 1.4.01 - 23rd December 2001-----
+
+Re-Added header and comments which were removed for 64k optimizations
+Sorted games by alphabetatizing
+Added Notes
+Added Category Nodes
+Added Select Modifier Codes
+Added Range Modifier Codes
+
+Added NTSC Games
+   Conker's Bad Fur Day
+   Diddy Kong Racing v1.0, v1.1
+   Jet Force Gemini
+   Perfect Dark
+
+Added PAL Games
+   
+   007 GoldenEye 
+   007 The World is Not Enough
+   1080 Snowboarding
+   A Bug's Life 
+   Army Men - Sarge's Heroes
+   Aerogauge
+   Airboarder 64
+   Armorines - Project S.W.A.R.M.
+   ALL STAR Baseball '99
+   All Star Tennis '99
+   Automobili LAMBORGHINI
+   Banjo-Kazooie
+   Banjo-Tooie
+   Bass Hunter 64
+   Batman Beyond - Return of the Joker 
+   Battle Tanx GA
+   Beetle Adventure Racing
+   BIOFREAKS
+   Blast Corps
+   Body Harvest
+   BOMBERMAN Hero
+   BUCK BUMBLE
+   Bust A Move 2
+   Castlevania
+   Castlevania 2
+   Centre Court Tennis
+   Chameleon Twist 2
+   Chopper Attack
+   Clay Fighter 63 1-3
+   Command & Conquer
+   Conkers Bad Fur Day
+   Cruis'n USA [V1.0]
+   Cruis'n USA [V1.1]
+   Cruis'n USA [V1.2]
+   Cruis'n World
+   CyberTiger
+   Dark Rift
+   Destruction Derby 64
+   Diddy Kong Racing V1.0
+   Diddy Kong Racing V1.1
+   Disney's TARZAN
+   Donald Duck Quack Attack
+   DONKEY KONG 64
+   Doom 64
+   Dual Heroes
+   Duke Nukem 64
+   Duke Nukem Zero Hour
+   Earthworm Jim 3D
+   Excitebike 64
+   Extreme-G
+   Extreme-G XG2
+   F1 WORLD GRAND PRIX2
+   F-ZERO X
+   F1 Racing Championship
+   FIFA - Road to World Cup 98
+   FIFA 99
+   FIFA Soccer 64
+   Fighter's Destiny
+   Fighting Force 64
+   Forsaken 64
+   Gauntlet Legends
+   Gex 3 - Deep Cover Gecko
+   Gex 64 - Enter the Gecko
+   Glover
+   GT 64 Championship Edition
+   HEXEN
+   Holy Magic Century
+   Hot Wheels Turbo Racing
+   HERCULES The Legendary Journeys
+   Hybrid Heaven
+   Hydro Thunder
+   IggysReckinBalls
+   International Superstar Soccer 64
+   International Superstar Soccer '98
+   JET FORCE GEMINI
+   John Romero's Daikatana
+   Killer Instinct Gold
+   Kirby 64 - The Crystal Shards
+   Knife Edge - Nose Gunner
+   Knockout Kings 2000
+   Legend of Zelda 2, Majora's Mask
+   Legend of Zelda, The - Ocarina of Time V1.0
+   Legend of Zelda, The - Ocarina of Time V1.1
+   Lode Runner 3-D
+   MACE - The Dark Age
+   Mario Golf 64
+   Mario Kart 64
+   Mario Kart 64 v1.0
+   Mario Kart 64 v1.1
+   Mario Party
+   MarioTennis
+   Mickey's Speedway USA
+   Micro Machines 64 Turbo
+   Mission Impossible
+   MISCHIEF MAKERS
+   MORTAL KOMBAT 4
+   Mortal Kombat Trilogy
+   Mystical Ninja - Starring Goemon
+   MRC - Multi Racing Championship
+   NASCAR 99
+   Operation WinBack - Covert Operations
+   Paperboy 64
+   PAPER MARIO
+   Perfect Dark
+   POKEMON STADIUM
+   Quake 64
+   Quake II
+   Rayman2 The Great Escape
+   Ready 2 Rumble Boxing
+   Resident Evil II
+   Re-Volt
+   ROAD RASH 64
+   ROADSTERS
+   Robotron 64
+   Rocket - Robot on Wheels
+   RR64 - Ridge Racer 64
+   Rugrats in Paris - The Movie
+   Rugrats - Treasure Hunt
+   S.C.A.R.S.
+   San Francisco Rush - Extreme Racing
+   San Francisco  Rush 2 - Extreme Racing USA
+   San Francisco Rush 2049
+   Scooby-Doo Classic Creep Capers
+   Shadowman
+   Snowbaord Kids
+   Snowboard Kids 2
+   South Park Rally
+   STARCRAFT 64
+   STARFOX64 64 Lylat Wars
+   Starshot - Space Circus Fever
+   Star Wars Episode I Battle for Naboo
+   Star Wars EP1 Pod Racer
+   Star Wars Rogue Squadron
+   Star Wars Shadows of the Empire
+   Superman
+   Super Mario 64
+   Super Smash Bros
+   Tigger's Honey Hunt
+   TOM AND JERRY In Fists of Furry
+   Tony Hawk's Pro Skater
+   Tony Hawk's Pro Skater 2
+   Top Gear Hyper-Bike
+   Top Gear Overdrive
+   TOP GEAR RALLY
+   TOP GEAR RALLY 2
+   Toy Story 2
+   Turok - Dinosaur Hunter V1.0
+   Turok - Dinosaur Hunter V1.1
+   Turok Rage Wars
+   Turok 2 - Seeds of Evil
+   Turok 3 Shadow of Oblivion
+   VIGILANTE 8
+   V-Rally Edition 99
+   Waialae Country Club - True Golf Classics
+   War Gods
+   Wave Race 64
+   Wayne Gretzky's 3D Hockey '98
+   Wetrix
+   Wipeout 64
+   Xena Warrior Princess - Talisman of Fate
+   Yoshi's Story
+
+Added new cheats for the following NTSC games
+   1080 Snowboarding
+   A Bug's Life
+   Aerofighters Assault
+   AeroGauge
+   All-Star Tennis '99
+   Army Men: Air Combat
+   Army Men: Sarge's Heros
+   Army Men: Sarge's Heros 2
+   Asteroids Hyper 64
+   Automobili Lamborghini
+   Banjo-Kazooie
+   Batman Beyond - Return of the Joker
+   Battle Tanx
+   Beetle Adventure Racing
+   Blast Corps v1.0, v1.1
+   Blues Brothers 2000
+   Body Harvest
+   Bust-A-Move '99
+   Castlevania
+   Castlevania - Legacy of Darkness
+   Chameleon Twist
+   Charlie Blast's Territory
+   Chopper Attack
+   Clay Fighter 63 1-3
+   Clay Fighter - Sculptor's Cut
+   Command & Conquer
+   Cruis'n USA v1.0, v1.1, v1.2
+   Cruis'n World
+   Deadly Arts
+   Destruction Derby 64
+   Disney's Donald Duck - Goin' Quackers
+   Doom 64
+   Dual Heroes
+   Duke Nukem 64
+   ECW Hardcore Revolution
+   Elmo's Letter Adventure
+   Elmo's Number Journey
+   F-Zero X
+   Goldeneye 007 (Some Added, Not Finished Yet)
+   Legend of Zelda, The - Ocarina of Time v1.0, v.1.1, v1.2
+   Legend of Zelda 2, The - Majora's Mask
+   Rayman 2 The Great Escape
+   Super Mario 64 (Some Added, Not Finished Yet)
+   Super Smash Brothers
+
+-----Version 1.02 - 31st August 2001-----
+
+Removed header and extra text to reduce file size
+Corrected CRC for Blast Corps [v1.0] (thanks to DSF)
+
+Added Games
+   A Bug's Life
+   Army Men - Air Combat
+   Army Men - Sarge's Heroes
+   Army Men - Sarge's Heroes 2
+   Blast Corps [v1.1]
+   Chameleon Twist
+   Deadly Arts
+   Disney's Donald Duck - Goin' Quackers
+   Dual Heroes
+   ECW Hardcore Revolution
+   Elmo's Letter Adventure
+   Elmo's Number Journey
+   Fighter's Destiny 2
+   Fighting Force 64
+   Gex 3 - Deep Cover Gecko
+   Harvest Moon 64
+   International Superstar Soccer 64
+   International Superstar Soccer '98
+   International Track and Field 2000
+   Jeremy McGrath Supercross 2000
+   John Romero's Daikatana
+   Ms. Pac-Man Maze Madness
+   NASCAR 99
+   NASCAR 2000
+   NBA In the Zone 99
+   NFL Blitz 2001
+   NFL Quarterback Club 2000
+   NFL Quarterback Club 2001
+   Paper Mario
+   Pilotwings 64
+   PGA European Tour
+   Rayman 2 - The Great Escape
+   Rugrats - Scavenger Hunt
+   S.C.A.R.S.
+   Shadow Man
+   South Park
+   Spider-Man
+   Starshot - Space Circus Fever
+   Tom Clancy's Rainbow Six
+   Tony Hawk's Pro Skater 2
+   Turok - Dinosaur Hunter
+   Turok - Rage Wars
+   Turok 2 - Seeds of Evil
+   Turok 2 - Seeds of Evil - Kiosk
+   Turok 3 - Shadow of Oblivion
+   Virtual Pool 64
+   WCW Mayhem
+   Wayne Gretzky's 3D Hockey
+   Wayne Gretzky's 3D Hockey '98
+   World Cup '98
+   WinBack - Covert Operations
+   WWF Attitude
+   WWF - War Zone
+
+-----Version 1.01 - 09th August 2001-----
+
+Removed cheat count (it was a pain it the arse and i don't think anybody cared)
+Removed "Invincible" cheat for Goldeneye 007 which didn't work (thanks to leozh)
+Modified "All Guns" cheat for Goldeneye 007 which didn't work (thanks to Suj)
+Modified the cht_readme.txt file
+Added Games
+   AeroFighters Assault
+   Beetle Adventure Racing
+   Castlevania - Legacy of Darkness
+   Excitebike 64
+   Excitebike 64 - Kiosk
+   F-1 World Grand Prix   
+   Hercules: The Legendary Journeys
+   Mario Party 3
+   Rampage - World Tour
+   Roadsters

@@ -1,0 +1,70 @@
+// PJ64 Official Cheats Database (Project64.cht)
+//    PAL  Cheats by The Gentleman
+
+
+
+A Question of Region: 
+ 
+Firstly i would like to make sure that all users of both (U) & (E) Cheat Codes understand one thing perfectly clear.
+I have had quite a few e-mails regarding a (E) Region Game Crashing when adding codes from a "Game Shark" Site.
+This should never be done, it will cause the game & PJ64 to freeze or Crash,
+because (E) Region Games do not use the same Code Format As (U) Games do.
+I only say this, so if anyone is trying to add codes through the GUI to understand that,
+(U) = "Game Shark" & (E) = "Pro/Action Replay" Cheat Codes.
+I haven't had much time to catch up to the support you have had for the (U) Region,
+i am trying my up most to accommodate you with as many Converted NTSC Codes - Pal as i can,
+the likes of what you have been used to thanks to the Fantastic work from Eagle.
+I hope you enjoy using both the (U) & (E) Region Codes & have an even better time, playing your games on PJ64.
+
+
+Notes:
+
+Just some points in regards to helping you get the most out of some of the codes you might be using.
+
+Aerogauge:
+There are Codes For "No Damage"  "Extra Vehicles & Tracks", & Laps To Race:
+Extra Vehicles Options, As you go through go slow & Pick The N64 Controller, it is a must, Enjoy. (:
+
+Army Men - Sarge's Heroes:
+Once you have put on "Have All Guns" & "Have Max Ammo"
+You have just got to try the "Play A Weapon", I think you will like It.
+
+Diddy Kong Racing:
+In Diddy Kong Racing: Do not use more than 1 Power up at a time or it will cause a crash.
+You must not put Any Have all Funtions code on unil you are inside the lobby to choose a gate,or it will crash the game.
+
+Excite Bike 64:
+In Excite Bike 64: Press L+R Buttons at track selection to Access these extra Track functions.
+
+Extreme-G:
+In Extreme-G: You have a Choice of Two extra Bikes, by choosing one of these,
+will disable all other choices until the code is switch off.
+
+Star Wars EP1 Racer:
+Enable In-Game cheat & Enable all In-Game cheats.
+In the event of the front screen still blocking the Text with a black out.
+When you 1st start on the main screen it will already be on Tournament.
+If you press the Digital or Analogue stick down once, you will be on Free play.
+If you press twice down on the Digital or Analogue stick you will be on Time Attack.
+Once you have chosen a Track Option at the front screen, Just Press C-Button Right.
+This will open up All Tracks & Characters In Free Play & Time Attack.
+Also In A Race (Including Tournament) Press The Start/Pause button to Access the In-Cheat-Menu Option.
+
+Super Mario 64:
+I have Managed to put a Have 175 Stars Option in for you, once the Code is activated,
+you will see it as a new option in Save Slot B.
+
+
+
+Thanks:
+
+To begin With, I would like to thank Zilmar, Jabo, & Eagle Very Much for giving me the chance, to add this
+(E) Region Pro-Action Replay Section, to the existing Game Shark (Project64.cht)
+I would like to thank Bodie for the Technical help & Advice He has given me.
+Equalaly I would like to thank Smiff for His Swift (no pun intended) action on supplying such a Fantastic rdb file,
+when he knew just how much i really needed that support from him & he came through with it with flying colours.
+Thank you Very Much Smiff, as always, You have my Full Thanks & Respect.
+I would Also like to Thank Kai666 "one of the greatest "AR" Code Busters for the N64 PAL Console Gaming World"
+For getting me so Interested in Code Creation & also for letting me Modify Some of His Great Creations For this Project (Thank You Kai)
+Last but no by no means least, I would like to Thank Jabo and Zilmar, for the production of this great emulator.
+

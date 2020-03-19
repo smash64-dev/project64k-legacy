@@ -1,0 +1,24 @@
+[5/8/2014 9:20:39 PM] SetViewport (scissor) failed 8876086C (43,32,1293,710)
+[5/18/2014 2:01:42 AM] 8007000E creating texture 256 1024
+[5/18/2014 2:02:14 AM] 8007000E creating texture 256 1024
+[7/11/2014 8:42:53 PM] 8007000E creating texture 512 512
+[7/19/2014 7:25:42 PM] 8007000E creating texture 512 512
+[7/25/2014 3:00:49 AM] Failed to create device code = 8876086C
+[10/30/2014 11:38:40 PM] 8007000E creating texture 256 1024
+[12/2/2014 11:56:52 PM] failed to create render-save 2 error 8876017C
+[10/16/2015 11:20:08 PM] SetViewport (scissor) failed 8876086C (100,1371,508,-411)
+[10/16/2015 11:20:08 PM] SetViewport (scissor) failed 8876086C (100,1371,508,-411)
+[10/16/2015 11:20:08 PM] SetViewport (scissor) failed 8876086C (608,1226,672,-266)
+[10/16/2015 11:20:08 PM] SetViewport (scissor) failed 8876086C (608,1226,672,-266)
+[11/9/2015 9:03:09 PM] failed to create render-save 2 error 8876017C
+[11/9/2015 9:03:42 PM] failed to create render-save 2 error 8876017C
+[3/1/2016 11:29:21 PM] failed to create render-save 2 error 8876017C
+[4/9/2016 10:44:24 PM] failed to create render-save 1 error 8876017C
+[4/9/2016 10:44:24 PM] failed to create render-save 2 error 8876017C
+[4/9/2016 10:44:28 PM] failed to create render-save 1 error 8876017C
+[4/9/2016 10:44:28 PM] failed to create render-save 2 error 8876017C
+[4/9/2016 10:45:40 PM] failed to create render-save 1 error 8876017C
+[4/9/2016 10:45:40 PM] failed to create render-save 2 error 8876017C
+[8/22/2016 11:44:35 PM] failed to create render-save 2 error 8876017C
+[8/22/2016 11:45:12 PM] failed to create render-save 2 error 8876017C
+[11/6/2016 9:43:17 PM] Failed to create device code = 88760868

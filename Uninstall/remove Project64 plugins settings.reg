@@ -1,0 +1,7 @@
+REGEDIT4
+;
+;simple Project64 uninstall script by Smiff
+;
+
+[-HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL]
+[-HKEY_CURRENT_USER\Software\N64 Emulation\DLL]

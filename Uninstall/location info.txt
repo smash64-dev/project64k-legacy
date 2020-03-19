@@ -1,0 +1,60 @@
+Project64 Simple Uninstall Scripts
+   by Smiff
+      www.smiff.clara.net
+    smiff@smiff.clara.co.uk
+
+
+This file contains a breakdown of all the registry keys used by Project64 and it's various components, listed by version number. This information is for advanced users only, if you are a beginner or don't understand what this means, don't edit your registry by hand, but rather please close this file, read the readme.txt and simply run the .reg file(s) provided.
+
+
+
+
+
+
+Version 1.0
+HKEY_CURRENT_USER\Software\JaboSoft\N64 Graphics
+HKEY_CURRENT_USER\Software\JaboSoft\N64 Input
+
+HKEY_CURRENT_USER\Software\N64 Emulation\DLL\ZilAudio
+
+HKEY_CURRENT_USER\Software\N64 Emulation\Project64 Version 1.0
+
+
+Version 1.1
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\Direct3D6 1.10
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\DirectInput2 0.21
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\OpenGL 0.71
+
+HKEY_CURRENT_USER\Software\N64 Emulation\DLL\ZilAudio
+
+HKEY_CURRENT_USER\Software\N64 Emulation\Project64 Version 1.1
+
+
+Version 1.2b
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\Direct3D6 1.20
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\DirectInput2 0.23
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\DirectSound 1.0
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\OpenGL 0.72
+
+HKEY_CURRENT_USER\Software\N64 Emulation\DLL\RSP 1.02
+HKEY_CURRENT_USER\Software\N64 Emulation\DLL\ZilAudio
+
+HKEY_CURRENT_USER\Software\N64 Emulation\Project64 Version 1.2 (beta)
+
+
+Version 1.2
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\Direct3D6 1.20a
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\DirectInput2 0.23
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\DirectSound 1.0
+HKEY_CURRENT_USER\Software\JaboSoft\Project64 DLL\OpenGL 0.72
+
+HKEY_CURRENT_USER\Software\N64 Emulation\DLL\RSP 1.02
+HKEY_CURRENT_USER\Software\N64 Emulation\DLL\ZilAudio
+
+HKEY_CURRENT_USER\Software\N64 Emulation\Project64 Version 1.2
+
+
+TOTAL UNINSTALL:
+HKEY_CURRENT_USER\Software\JaboSoft
+HKEY_CURRENT_USER\Software\N64 Emulation
+

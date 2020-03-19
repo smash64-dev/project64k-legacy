@@ -1,0 +1,15 @@
+[DEFAULT]
+BASEURL=http://www.emutalk.net/forumdisplay.php?s=&forumid=6
+
+[DOC#35]
+BASEURL=http://adserver.emulation64.com/index.php
+
+[DOC#35#5]
+BASEURL=http://www.arcadeathome.com/inc/banner.inc?emu64
+
+[DOC#35#5#4]
+BASEURL=http://adserver.gorillanation.com/?DC=Arcadeathome.com+Top+468&DH=Y&TARGET=_top
+
+[InternetShortcut]
+URL=http://www.emutalk.net/forumdisplay.php?s=&forumid=6
+Modified=E0C50E11B38CC101C5
