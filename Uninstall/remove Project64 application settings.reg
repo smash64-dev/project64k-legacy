@@ -1,0 +1,27 @@
+REGEDIT4
+;
+;simple Project64 uninstall script by Smiff
+;
+
+[-HKEY_CURRENT_USER\Software\N64 Emulation]
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.v64]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.z64]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.n64]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rom]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.jap]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.pal]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.usa]
+@=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.eur]
+@=""
+
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PJ64]

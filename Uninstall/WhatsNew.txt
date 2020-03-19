@@ -1,0 +1,125 @@
+PJ64 Langauge File (.lng) WhatsNew.txt
+  by users of Project64 around the world =)
+    compiled by Smiff
+      www.smiff.clara.net
+    smiff@smiff.clara.co.uk
+
+
+
+New/Updated in v1.4.01
+------------------------
+
+[English]		by Zilmar
+[English alternative] 	by Smiff
+
+That's it im afraid. All other translations are carried over from the last release. So all the new text isn't translated, but we figured it's better than nothing. It just wasn't possible to get new translations in before release, as I type this we've got 3 hours 'till release and it's been hectic like this for a while. Please feel free to update and distribute your own language files as you see fit - I won't be around to co-ordinate things.
+
+
+New/Updated in v1.3.07
+------------------------
+
+[English alternative] 	by Smiff
+[Deutsch (German)] 	by Martin Leonhartsberger mleonhartsberger@gmx.de
+[Español (Spanish)] 	by {DrSobol mrsteed@uole.com}
+[Français (French)] 	by Pharmboy (pharmboy@caramail.com)
+[Italiano (Italian)] 	by opale, ziotommy@yahoo.it
+[Nederlands (Dutch)] 	by Mayco & a bit of Redah ;)
+[Nihongo (Japanese)] 	by compei compei@geocities.co.jp
+[Norsk (Norwegian)] 	by Azer arildvel@online.no
+[Polski (Polish)] 	by Adam Fandrejewski
+[Portugues (Brazilian Portuguese)] by Marcos Spindula (mrspindula@ig.com.br)
+[Românã (Romanian)]  	by DSF [dsfarad@yahoo.com]
+[Slovenskı (Slovak)] 	by Peter Papšo- papsokam@nextra.sk
+[Svenska (Swedish)] 	by Akilles
+[Türkçe (Turkish)] 	by Mehmet Akif (yumos@anet.net.tr)
+[Åëëçíéêç (Greek)] 	by 64ultramaniac
+[Áúëãàğñêè (Bulgarian)] by Ivellin Ivanov (linker), linker@mail.bg
+[Ğóññêèé (Russian)] 	by KuKzz, kukzz@rambler.ru
+[­»´äÁcÅé¤¤¤å (HK Chinese)] by NSR, pgm@hongkong.com
+[¥xÆWÁcÅé¤¤¤å (TW Chinese)] by Aries (aries@retrogames.com)
+[òáøéú (Hebrew)]  	by (m_ogy@lycos.com) -Ogy- úøâåí ò"é 
+
+Many thanks to all of you, and sorry if your file didn't make it (in case of multiple submissions). Also there is no more space in the file for PJ v1.3 (but from v1.4 onwards there will hopefully be no limit).
+
+
+New/Updated in v1.3
+-------------------
+
+Removed the following lines:
+(authors, please don't set these any more!)
+
+SaveSlotItem1=
+SaveSlotItem2=
+SaveSlotItem3=
+SaveSlotItem4=
+SaveSlotItem5=
+SaveSlotItem6=
+SaveSlotItem7=
+SaveSlotItem8=
+SaveSlotItem9=
+SaveSlotItem10=
+SaveSlotItem11=
+
+Added the following lines:
+(authors, please DO set these, if you'd like to update your files!)
+
+SystemItem7=
+SystemItem8=
+OptionsText12=
+
+Tweaked the English text a little.
+
+
+New/Updated in v1.2 SP1
+-----------------------
+
+Added the following line:
+
+OptionsItem9=
+
+
+[English]		 by Smiff
+[Óêğà¿íñüêà (Ukrainian)] by Volodymyr Dudenko aka BOBAH, jacker@ukr.net
+[­»´äÁcÅé¤¤¤å (HK Chin.)]by NSR, pgm@hongkong.com
+[Portuguese (Brazil)]	 by Crows_Hunter
+[Românã (Romanian)]	 by DSF, http:www.xpc.go.ro
+[Åëëçíéêç(Greek)]	 by 64ultramaniac
+[Vietnamese]		 by Le Thanh Hung, lthung@hcm.vnn.vn
+
+I had to cut [English (original)] because I seem to have hit a .lng filesize limit (~64kb) (!) ... we'll need to extend this to get any more translations in. Don't worry, keep them coming, I'm sure Zilmar can do something about that :) So if you want the original text just delete the file for now.
+
+
+New/Updated in v1.2
+-------------------
+
+[English]		by Smiff
+[Bosnian] 		by Vedran Antovic, antovicv@hotmail.com
+[Portuguese] 		by Unzipernet2
+[Portuguese (Brazil)]	by Crows_Hunter
+[­»´äÁcÅé¤¤¤å](HK Chin.)by Big5, pgm@hongkong.com
+[Japanese] 		by compei, compei@geocities.co.jp
+[ÁcÅé¤¤¤å (Trad. Chin.)]by Aries Huang, emully@ms51.hinet.net
+[Polish] 		by Majin Vejiitto, vegetto5@wp.pl
+[Slovensko] 		by Jernej Simonèiè, jernej.simoncic@guest.arnes.si
+
+
+New/Updated 1.1 to 1.2
+----------------------
+
+[Dutch] 		by BdR
+[Deutsch] 		by mafro64, www.n64emulation.de
+[Ğóññêèé](Russian) 	by KuKzz, kukzz@rambler.ru
+[Español] 		by MaRK, mark@metropoli2000.net
+[Francais]		by Greevy, anarchyinchicoutimi@jamaicans.com
+[Italian]		(sorry author unknown, please contact me if you are the author)
+[ÖĞÎÄ] (?)		by GZbibi, gzbibi@tlt3.com
+[ÇÑ±¹¾î] (?)		by Captain_Linoa1997, http:www.Linoa1997.pe.ky
+
+
+Language supported implemented in PJ64 v1.1
+
+
+Authors, if you would like your email removed from this list just ask - I am only giving email addresses where people put them in the file, otherwise I'll assume you wanted it kept private.
+
+
+[EOF]
