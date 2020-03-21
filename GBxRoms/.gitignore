@@ -1,0 +1,5 @@
+#.gitignore
+# this directory is used by NRage for GameBoy ROMs in the MemPaks
+
+*
+!.gitignore

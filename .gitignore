@@ -1,0 +1,20 @@
+# .gitignore
+
+# found embedded in Project64KVE.exe
+hotquik_debug.txt
+
+# ignore common non-config file types used during use
+**.cache
+**.eep
+**.eur
+**.fla
+**.jap
+**.krec
+**.mpk
+**.n64
+**.pal
+**.rom
+**.sra
+**.usa
+**.v64
+**.z64

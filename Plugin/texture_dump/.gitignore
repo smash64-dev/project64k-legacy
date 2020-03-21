@@ -1,0 +1,5 @@
+#.gitignore
+# this directory is used by GlideN64 for texture dumps
+
+*
+!.gitignore

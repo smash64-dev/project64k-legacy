@@ -1,0 +1,5 @@
+#.gitignore
+# this directory is used by Project64 for offline save files
+
+*
+!.gitignore
