@@ -1,0 +1,9 @@
+#.gitignore
+# this directory is used for making releases quickly
+
+*
+!.gitignore
+
+!package.bat
+!package.ps1
+!package.sh

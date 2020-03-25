@@ -1,7 +1,7 @@
 # .gitignore
 
 # ignore git archive releases
-*.zip
+Release/*
 
 # found embedded in Project64KVE.exe
 hotquik_debug.txt
