@@ -1,31 +1,71 @@
 ; package.ahk
+#Include %A_LineFile%\..\logger.ahk
+#Include %A_LineFile%\..\json.ahk
 
 class Package {
-    static reserved := {basedir:true, cfgtools:true, meta:true, metadata:true, project64:true, updater:true}
+    static cfg_list := ["Cfg\tools.ini", "Config\tools.ini"]
+    static exe_list := ["project64*.exe"]
+    static log := {}
+    static reserved := {base_directory:true, config_tools_ini:true, exe_list:true, updater_binary:true}
 
-    ; these generally shouldn't change
-    project64 := "Project64*.exe"
-    cfgtools := "Cfg\tools.ini"
+    base_directory := ""
+    config_tools_ini := ""
+    updater_binary := ""
 
-    basedir := ""
-    metadata := {}
-    updater := ""
+    ; we will probably access these directly
+    config_data := {}
+    config_func := {}
+    config_json := ""
 
-    __New(updaterBinary) {
-        this.updater := updaterBinary
-        this.basedir := this.GetBaseDirectory(this.updater)
+    __New(updater_binary) {
+        log := new Logger("package.ahk")
+        this.log := log
 
-        tools_ini := this.GetFile(this.cfgtools)
-        if tools_ini {
-            IniRead, tools_meta, %tools_ini%, Meta
+        this.updater_binary := updater_binary
+        this.base_directory := this.GetBaseDirectory(this.updater_binary)
 
-            Loop, parse, tools_meta, `n, `r
-            {
-                key_value := StrSplit(A_LoopField, "=")
-                key := Trim(key_value[1])
-                this.metadata[key] := Trim(key_value[2])
+        for index, config in Package.cfg_list {
+            file := this.GetFile(config)
+
+            if file {
+                this.config_tools_ini := file
+                break
             }
         }
+
+        ; store our basic information into the config data
+        this.config_data["Package"] := {"BaseDir": this.base_directory, "Config": this.config_tools_ini, "Updater": this.updater_binary}
+
+        if this.config_tools_ini {
+            ; read through the entire config and turn it into an object
+            IniRead, tools_sections, % this.config_tools_ini
+
+            loop, parse, tools_sections, `n, `r
+            {
+                tools_section := A_LoopField
+                this.config_func[tools_section] := true
+                this.config_data[tools_section] := {}
+                IniRead, section_keys, % this.config_tools_ini, %tools_section%
+
+                loop, parse, section_keys, `n, `r
+                {
+                    section_key := StrSplit(A_LoopField, "=")
+                    key := Trim(section_key[1])
+                    value := Trim(section_key[2])
+
+                    this.config_data[tools_section][key] := value
+                }
+            }
+        }
+
+        this.config_json := JSON.Dump(this.config_data)
+        this.log.info(Format("config_json: '{1}'", this.config_json))
+    }
+
+    ; allows pull from different section of the config easier
+    __Call(method, ByRef arg, args*) {
+        if this.config_func[method]
+            return this.GetSectionValue(method, arg, args*)
     }
 
     ; allows using directory paths or filenames as properties
@@ -36,47 +76,56 @@ class Package {
             return this.path
     }
 
-    ; grab the base directory of the package, "Project64*.exe"
+    ; grab the base directory of the package, "project64_exe*.exe"
     GetBaseDirectory(updater) {
         ; FileExist works off A_WorkingDir, don't destroy that
         B_WorkingDir = %A_WorkingDir%
-        SplitPath, updater,, currentDir
+        SplitPath, updater,, current_dir
         
         ; we shouldn't be more than 5 subdirectories deep anyway
-        Loop, 5 {
-            SetWorkingDir, %currentDir%
-            if FileExist(this.project64) {
-                SetWorkingDir %B_WorkingDir%
-                return currentDir
+        loop, 5 {
+            SetWorkingDir, %current_dir%
+
+            for index, exe in Package.exe_list {
+                if FileExist(exe) {
+                    SetWorkingDir %B_WorkingDir%
+                    return current_dir
+                }
             }
-            SplitPath, A_WorkingDir,, currentDir
+
+            SplitPath, A_WorkingDir,, current_dir
         }
+
+        this.log.err("Unable to find base directory")
     }
 
     ; grab the full path of a directory relative to the base directory
     GetDirectory(path) {
-        fullpath := this.basedir . "\" . path
+        fullpath := this.base_directory . "\" . path
         if InStr(FileExist(fullpath), "D") {
             return fullpath
         }
+
+        this.log.warn(Format("Directory '{1}' does not exist", fullpath))
         return false
     }
 
     ; grab the full path of a file relative to the base directory
     GetFile(path) {
-        fullpath := this.basedir . "\" . path
+        fullpath := this.base_directory . "\" . path
         if FileExist(fullpath) {
             return fullpath
         }
+
+        this.log.warn(Format("File '{1}' does not exist", fullpath))
         return false
     }
 
-    ; retrieve stored metadata about the package
-    meta(key, default_value:="") {
-        if this.metadata.HasKey(key) {
-            return this.metadata[key]
-        } else {
+    ; grab values from the config, with an optional default 
+    GetSectionValue(sec, key, default_value := "") {
+        if this.config_data[sec].HasKey(key)
+            return this.config_data[sec][key]
+        else
             return default_value
-        }
     }
 }

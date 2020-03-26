@@ -3,7 +3,4 @@
 
 *
 !.gitignore
-
-!package.bat
-!package.ps1
 !package.sh

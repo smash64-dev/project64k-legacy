@@ -2,6 +2,7 @@
 
 # ignore git archive releases
 Release/*
+Tools/src/*.exe
 
 # found embedded in Project64KVE.exe
 hotquik_debug.txt
@@ -12,6 +13,7 @@ hotquik_debug.txt
 **.eur
 **.fla
 **.jap
+**.log
 **.krec
 **.mpk
 **.n64

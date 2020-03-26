@@ -1,93 +1,38 @@
 ; updater.ahk
 #NoTrayIcon
+#Include %A_LineFile%\..\github.ahk
 #Include %A_LineFile%\..\json.ahk
 #Include %A_LineFile%\..\libcrypt.ahk
+#Include %A_LineFile%\..\logger.ahk
 #Include %A_LineFile%\..\package.ahk
 
-github_api := "https://api.github.com"
-self := "project64-updater"
+DownloadLatestRelease(github, temp_dir) {
+	; queries the API for the latest release information
+	release_json := temp_dir . "\releases.json"
+	UrlDownloadToFile % github.release_url, %release_json%
 
-tempdir := A_Temp . "\" . self
-current := new Package(A_ScriptFullPath)
-is_beta := current.meta("Beta", true)
-releases_url := github_api . "/repos/" . current.meta("Source") . "/releases"
-latest_url := releases_url . "/latest"
-releases_json := tempdir . "\releases.json"
+	github.LoadJSON(release_json)
+	github.FindAssets()
 
-; download releases information from github API
-; if the user is not on beta, just grab the latest release
-if is_beta
-	UrlDownloadToFile, %releases_url%, %releases_json%
-else
-	UrlDownloadToFile, %latest_url%, %releases_json%
+	; download the checksum file to validate our package
+	SplitPath % github.checksum_url, checksum_filename
+	checksum_path := temp_dir . "\" . checksum_filename
+	UrlDownloadToFile % github.checksum_url, %checksum_path%
+	log.info(Format("Downloaded '{1}' to '{2}' (Result: {3})", github.checksum_url, checksum_path, ErrorLevel))
 
-file := "C:\Windows\notepad.exe"
-OutputDebug % "File = " . LC_FileSHA(file)
-
-FileRead, json_str, %releases_json%
-json_parsed := JSON.Load(json_str)
-
-OutputDebug % "==========="
-OutputDebug % json_str 
-OutputDebug % "-----------"
-OutputDebug % "Version: " . json_parsed[1].tag_name
-OutputDebug % "Build Name: " . json_parsed[1].name
-OutputDebug % "Uploader: " . json_parsed[1].author.login
-OutputDebug % "Beta Build: " . json_parsed[1].prerelease
-OutputDebug % "Download Name: " . json_parsed[1].assets[1].name
-OutputDebug % "Download Url: " . json_parsed[1].assets[1].browser_download_url
-OutputDebug % "Downloads: " . json_parsed[1].assets[1].download_count
-OutputDebug % "About Build: " . json_parsed[1].body
-
-
-OutputDebug % "==========="
-
-exit
-
-json_str =
-(
-{
-	"str": "Hello World",
-	"num": 12345,
-	"float": 123.5,
-	"true": true,
-	"false": false,
-	"null": null,
-	"array": [
-		"Auto",
-		"Hot",
-		"key"
-	],
-	"object": {
-		"A": "Auto",
-		"H": "Hot",
-		"K": "key"
-	}
+	; download the full package
+	SplitPath % github.package_url, package_filename
+	package_path := temp_dir . "\" . package_filename
+	UrlDownloadToFile % github.package_url, %package_path%
+	log.info(Format("Downloaded '{1}' to '{2}' (Result: {3})", github.package_url, package_path, ErrorLevel))
 }
-)
 
-parsed := JSON.Load(json_str)
+; entry point
+global SELF := "Project64K-Updater"
+global log := new Logger()
 
-parsed_out := Format("
-(Join`r`n
-String: {}
-Number: {}
-Float:  {}
-true:   {}
-false:  {}
-null:   {}
-array:  [{}, {}, {}]
-object: {{}A:""{}"", H:""{}"", K:""{}""{}}
-)"
-, parsed.str, parsed.num, parsed.float, parsed.true, parsed.false, parsed.null
-, parsed.array[1], parsed.array[2], parsed.array[3]
-, parsed.object.A, parsed.object.H, parsed.object.K)
+app_dir := A_AppData . "\" . SELF
+temp_dir := A_Temp . "\" . SELF
 
-stringified := JSON.Dump(parsed,, 4)
-stringified := StrReplace(stringified, "`n", "`r`n") ; for display purposes only
-
-ListVars
-WinWaitActive ahk_class AutoHotkey
-ControlSetText Edit1, [PARSED]`r`n%json_parsed%`r`n`r`n[STRINGIFIED]`r`n%stringified%
-WinWaitClose
-return
+current_pkg := new Package(A_ScriptFullPath)
+github := new GitHub(current_pkg.updater("Source"), current_pkg.updater("Beta", true))
