@@ -1,9 +1,12 @@
 #!/bin/bash
 # package.sh - this should work with git bash in Windows
 
-# taken from https://github.com/kvz/bash3boilerplate/blob/master/src/ini_val.sh
+# function from https://github.com/kvz/bash3boilerplate/blob/master/src/ini_val.sh
+#
 # The MIT License (MIT)
 # Copyright (c) 2013 Kevin van Zonneveld and contributors
+# You are not obligated to bundle the LICENSE file with your b3bp projects as long
+# as you leave these references intact in the header comments of your source files.
 function ini_val() {
 	local file="${1:-}"
 	local sectionkey="${2:-}"
@@ -139,13 +142,16 @@ function update_checksums() {
 
 # entry point
 ROOT_DIR="$(git rev-parse --show-toplevel)"
-cd "$ROOT_DIR" || exit
+OUTPUT_FILE="project64k-legacy.zip"
 
+# update metadata in some config files
+cd "$ROOT_DIR" || exit
 echo "Creating package, please wait..."
-update_checksums "Cfg/tools.ini"
+update_checksums "Tools/updater.cfg"
 
 # package project and save checksum
-git archive --format=zip --output="Release/project64k-legacy.zip" HEAD
-
+git archive --format=zip --output="Release/${OUTPUT_FILE}" HEAD
 cd "Release/" || exit
-sha1sum project64k-legacy.zip > sha1sum.txt
+sha1sum "${OUTPUT_FILE}" > sha1sum.txt
+
+exit 0
