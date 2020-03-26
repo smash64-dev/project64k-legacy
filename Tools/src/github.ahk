@@ -3,7 +3,7 @@
 #Include %A_LineFile%\..\json.ahk
 
 class GitHub {
-    static log := {}
+    static ghlog := {}
     
     checksum_type := "SHA"
     github_api := "https://api.github.com"
@@ -18,8 +18,8 @@ class GitHub {
     release_url := ""
 
     __New(source_repo, wants_beta) {
-        log := new Logger("github.ahk")
-        this.log := log
+        ghlog := new Logger("github.ahk")
+        this.log := ghlog
 
         all_releases := this.github_api . "/repos/" . source_repo . "/releases"
         latest_release := all_releases . "/latest"
@@ -30,6 +30,7 @@ class GitHub {
         this.log.info(Format("release_url: {1} (beta: {2})", this.release_url, this.wants_beta))
     }
 
+    ; returns the array id of the latest build from the JSON data
     FindLatestBuildId() {
         build_list := {}
         build_tags := ""
@@ -47,28 +48,37 @@ class GitHub {
         return build_list[latest_id]
     }
 
+    ; find the checksum and package assets in the latest build
     FindAssets() {
         assets := this.latest_build.assets
+        found_checksum := false
+        found_package := false
 
         loop {
             asset_name := assets[A_Index].name 
 
             if InStr(asset_name, "md5sum") {
+                found_checksum := true
                 this.checksum_type := "MD5"
                 this.checksum_url := assets[A_Index].browser_download_url
             }
 
             if InStr(asset_name, "sha1sum") {
+                found_checksum := true
                 this.checksum_type := "SHA"
                 this.checksum_url := assets[A_Index].browser_download_url
             }
 
             if InStr(asset_name, "zip") {
+                found_package := true
                 this.package_url := assets[A_Index].browser_download_url
             }
         } until !assets[A_Index].id
+
+        return found_checksum & found_package
     }
 
+    ; load the API results into a JSON object
     LoadJSON(json_file) {
         if FileExist(json_file) {
             FileRead, json_str, %json_file%
@@ -84,7 +94,15 @@ class GitHub {
                 }
 
                 this.latest_build := this.json_payload[this.latest_build_id]
+            } else {
+                this.log.err(Format("Could not read json file '{1}'", json_file))
+                return false
             }
+        } else {
+            this.log.err(Format("Unable to find json file '{1}'", json_file))
+            return false
         }
+
+        return true
     }
 }

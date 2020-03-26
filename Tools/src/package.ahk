@@ -5,7 +5,7 @@
 class Package {
     static cfg_list := ["Cfg\tools.ini", "Config\tools.ini"]
     static exe_list := ["project64*.exe"]
-    static log := {}
+    static plog := {}
     static reserved := {base_directory:true, config_tools_ini:true, exe_list:true, updater_binary:true}
 
     base_directory := ""
@@ -18,8 +18,8 @@ class Package {
     config_json := ""
 
     __New(updater_binary) {
-        log := new Logger("package.ahk")
-        this.log := log
+        plog := new Logger("package.ahk")
+        this.log := plog
 
         this.updater_binary := updater_binary
         this.base_directory := this.GetBaseDirectory(this.updater_binary)
@@ -76,7 +76,7 @@ class Package {
             return this.path
     }
 
-    ; grab the base directory of the package, "project64_exe*.exe"
+    ; grab the base directory of the package, "project64*.exe"
     GetBaseDirectory(updater) {
         ; FileExist works off A_WorkingDir, don't destroy that
         B_WorkingDir = %A_WorkingDir%
@@ -97,6 +97,7 @@ class Package {
         }
 
         this.log.err("Unable to find base directory")
+        return false
     }
 
     ; grab the full path of a directory relative to the base directory
