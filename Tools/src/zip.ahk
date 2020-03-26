@@ -12,45 +12,30 @@
   `--'---' `--''     |  ,     .-./|   :    : `--`----'     ---`-'   
                       `--`---'     \   \  /                         
                                     `--`-'  
-Zip/Unzip file(s)/folder(s)/wildcard pattern files
-Requires: Autohotkey_L, Windows > XP
-URL: http://www.autohotkey.com/forum/viewtopic.php?t=65401
-Credits: Sean for original idea
+Requires Autohotkey_L
+http://www.autohotkey.com/forum/viewtopic.php?t=65401
 */
 
-;; ----------- 	THE FUNCTIONS   -------------------------------------
-Zip(FilesToZip,sZip)
+Zip(sDir, sZip)
 {
-If Not FileExist(sZip)
-	CreateZipFile(sZip)
-psh := ComObjCreate( "Shell.Application" )
-pzip := psh.Namespace( sZip )
-if InStr(FileExist(FilesToZip), "D")
-	FilesToZip .= SubStr(FilesToZip,0)="\" ? "*.*" : "\*.*"
-loop,%FilesToZip%,1
-{
-	zipped++
-	ToolTip Zipping %A_LoopFileName% ..
-	pzip.CopyHere( A_LoopFileLongPath, 4|16 )
-	Loop
-	{
-		done := pzip.items().count
-		if done = %zipped%
-			break
-	}
-	done := -1
-}
-ToolTip
-}
-
-CreateZipFile(sZip)
-{
-	Header1 := "PK" . Chr(5) . Chr(6)
-	VarSetCapacity(Header2, 18, 0)
-	file := FileOpen(sZip,"w")
-	file.Write(Header1)
-	file.RawWrite(Header2,18)
-	file.close()
+   If Not FileExist(sZip)
+   {
+    Header1 := "PK" . Chr(5) . Chr(6)
+    VarSetCapacity(Header2, 18, 0)
+    file := FileOpen(sZip,"w")
+    file.Write(Header1)
+    file.RawWrite(Header2,18)
+    file.close()
+   }
+    psh := ComObjCreate( "Shell.Application" )
+    pzip := psh.Namespace( sZip )
+    pzip.CopyHere( sDir, 4|16 )
+    Loop {
+        sleep 100
+        zippedItems := pzip.Items().count
+        ;ToolTip Zipping in progress..
+    } Until zippedItems=1 ;because sDir is just one file or folder
+    ;ToolTip
 }
 
 Unz(sZip, sUnz)
@@ -64,10 +49,9 @@ Unz(sZip, sUnz)
     Loop {
         sleep 100
         unzippedItems := psh.Namespace( sUnz ).items().count
-        ToolTip Unzipping in progress..
+        ;ToolTip Unzipping in progress..
         IfEqual,zippedItems,%unzippedItems%
             break
     }
-    ToolTip
+    ;ToolTip
 }
-;; ----------- 	END FUNCTIONS   -------------------------------------
