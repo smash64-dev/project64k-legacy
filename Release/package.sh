@@ -76,11 +76,11 @@ ${key}${delim}${val}"
 }
 
 function update_checksums() {
-    local tools_ini="$1"
+    local config="$1"
     local prefix="${2:-Watch_}"
 
     local watches=""
-    watches="$(grep -o "^\[${prefix}.*\]" "$tools_ini" | tr -d '[]')"
+    watches="$(grep -o "^\[${prefix}.*\]" "$config" | tr -d '[]')"
 
     local name=""
     local path=""
@@ -89,52 +89,45 @@ function update_checksums() {
     local default=""
 
     for section in $watches; do
-        name="$(ini_val "$tools_ini" "${section}.Name")"
-        path="$(ini_val "$tools_ini" "${section}.Path")"
-        action="$(ini_val "$tools_ini" "${section}.Action")"
+        name="$(ini_val "$config" "${section}.Name")"
+        path="$(ini_val "$config" "${section}.Path")"
+        action="$(ini_val "$config" "${section}.Ensure")"
 
         echo "- Updating checksum for ${name} (${path})"
         case "$action" in
-            # only add if it doesn't already exist
-            [Cc]reate)
-                if [[ -f "$path" ]]; then
-                    checksum="$(sha1sum "$path" | awk '{print $1}' | xargs)"
-                    ini_val "$tools_ini" "${section}.Checksum" "$checksum"
-                else
-                    ini_val "$tools_ini" "${section}.Checksum" "0"
-                fi
-                ;;
-
-            # we don't need to do this (unused)
-            [Rr]ead)
-                echo "- Unknown action for ${name} (${path})"
-                exit 1
-                ;;
-            
-            # the file should be updated, but may have been modified by the user
-            [Uu]pdate)
-                # without xargs, sha1sum | awk is adding a weird backslash on Windows
-                if [[ -f "$path" ]]; then
-                    checksum="$(sha1sum "$path" | awk '{print $1}' | xargs)"
-                    ini_val "$tools_ini" "${section}.Checksum" "$checksum"
-                else
-                    ini_val "$tools_ini" "${section}.Checksum" "0"
-                fi
-                ;;
-
             # remove a file we've removed from the package
-            [Dd]elete)
+            [Aa]bsent)
                 if [[ -e "$path" ]]; then
                     echo "- The file/directory for still exists (${path})"
                     exit 1
                 else
-                    ini_val "$tools_ini" "${section}.Checksum" "0"
+                    ini_val "$config" "${section}.Checksum" "0"
+                fi
+                ;;
+
+            # the file should be updated, but may have been modified by the user
+            [Ll]atest)
+                # without xargs, sha1sum | awk is adding a weird backslash on Windows
+                if [[ -f "$path" ]]; then
+                    checksum="$(sha1sum "$path" | awk '{print $1}' | xargs)"
+                    ini_val "$config" "${section}.Checksum" "$checksum"
+                else
+                    ini_val "$config" "${section}.Checksum" "0"
+                fi
+                ;;
+
+            # only add if it doesn't already exist
+            [Pp]resent)
+                if [[ -f "$path" ]]; then
+                    checksum="$(sha1sum "$path" | awk '{print $1}' | xargs)"
+                    ini_val "$config" "${section}.Checksum" "$checksum"
+                else
+                    ini_val "$config" "${section}.Checksum" "0"
                 fi
                 ;;
 
             *)
-                echo "- Unknown action for ${name} (${path})"
-                exit 1
+                echo "- Unknown action for ${name} (${path}), ignoring"
                 ;;
         esac
     done
@@ -151,6 +144,8 @@ update_checksums "Tools/updater.cfg"
 
 # package project and save checksum
 git archive --format=zip --output="Release/${OUTPUT_FILE}" HEAD
+cp -f "CHANGELOG.md" "Release/CHANGELOG.md"
+
 cd "Release/" || exit
 sha1sum "${OUTPUT_FILE}" > sha1sum.txt
 
