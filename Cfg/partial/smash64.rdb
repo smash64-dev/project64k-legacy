@@ -1,0 +1,196 @@
+[916B8B5B-780B85A4-C:45]
+Good Name=Super Smash Bros. (U) [!]
+Internal Name=SMASH BROTHERS
+CPU Type=Recompiler
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[67D20729-F696774C-C:4A]
+Good Name=Nintendo All-Star! Dairantou Smash Brothers (J)
+Internal Name=SMASH BROTHERS
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+Self-modifying code Method=Protected
+
+[3FC2D06F-9F0E78AA-C:45]
+Good Name=19XXCE 1.0 Beta (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[3FC2D0AB-3DE3713D-C:45]
+Good Name=19XXCE 1.1 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[4FC6C843-EDF460EF-C:45]
+Good Name=19XXCE 1.2 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[4FC69B81-CF8DFD0F-C:45]
+Good Name=19XXCE 1.4 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[8E88330C-84E39D42-C:45]
+Good Name=19XXTE v0.11
+Internal Name=SMASH BROTHERS
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[9B0D1C0C-0D3BB7D8-C:45]
+Good Name=19XXTE 1.0 Beta (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[9B0D1C9E-5BE79ACE-C:45]
+Good Name=19XXTE 1.1 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[16A7FED9-61413950-C:45]
+Good Name=19XXTE 1.2 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[20689EAB-8AC4CE27-C:45]
+Good Name=19XXTE 1.4 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[74FB00B7-23C0AEEE-C:45]
+Good Name=19XXTE Genesis Edition
+Internal Name=SMASH BROTHERS
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[4FC69AA5-84C0FF92-C:45]
+Good Name=19XX Netplay Edition 1.5 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[DEB992B2-55FC9187-C:45]
+Good Name=SmashRemix0.9
+Internal Name=SmashRemix0.9
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[FA3AA571-673C45D2-C:45]
+Good Name=SmashRemix0.9.2
+Internal Name=SmashRemix
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
