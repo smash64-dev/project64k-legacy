@@ -5,6 +5,7 @@ CHANGELOG.md export-ignore
 README.md export-ignore
 Cfg/tools.ini export-subst
 Release export-ignore
+Tools/updater export-ignore
 Tools/updater.cfg export-subst
 
 # git lfs
