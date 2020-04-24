@@ -1,7 +1,7 @@
 # .gitignore
 
 # ignore git archive releases
-Release/*
+Release
 Tools/user.cfg
 
 # found embedded in Project64KVE.exe
