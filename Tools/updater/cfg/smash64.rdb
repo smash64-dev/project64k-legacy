@@ -1,17 +1,3 @@
-[916B8B5B-780B85A4-C:45]
-Good Name=Super Smash Bros. (U) [!]
-Internal Name=SMASH BROTHERS
-CPU Type=Recompiler
-Status=Compatible
-Counter Factor=1
-Culling=1
-SMM-Cache=0
-SMM-FUNC=0
-SMM-TLB=0
-Use TLB=No
-RDRAM Size=8
-ViRefresh=2200
-
 [67D20729-F696774C-C:4A]
 Good Name=Nintendo All-Star! Dairantou Smash Brothers (J)
 Internal Name=SMASH BROTHERS
@@ -25,6 +11,48 @@ Use TLB=No
 RDRAM Size=8
 ViRefresh=2200
 Self-modifying code Method=Protected
+
+[DD26FDA1-CB4A6BE3-C:55]
+Good Name=Super Smash Bros. (A) [!]
+Internal Name=SMASH BROTHERS
+CPU Type=Recompiler
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[93945F48-5C0F2E30-C:50]
+Good Name=Super Smash Bros. (E) [!]
+Internal Name=SMASH BROTHERS
+CPU Type=Recompiler
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
+
+[916B8B5B-780B85A4-C:45]
+Good Name=Super Smash Bros. (U) [!]
+Internal Name=SMASH BROTHERS
+CPU Type=Recompiler
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Use TLB=No
+RDRAM Size=8
+ViRefresh=2200
 
 [3FC2D06F-9F0E78AA-C:45]
 Good Name=19XXCE 1.0 Beta (U)

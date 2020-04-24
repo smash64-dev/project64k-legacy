@@ -12168,57 +12168,6 @@ Use Large Buffer=No
 Status=Issues (plugin)
 Plugin Note=[video] too slow to play
 
-[DD26FDA1-CB4A6BE3-C:55]
-Good Name=Super Smash Bros. (A) [!]
-Internal Name=SMASH BROTHERS
-CPU Type=Recompiler
-Self-modifying code Method=Change Memory
-Use TLB=No
-Counter Factor=2
-Use Large Buffer=No
-Status=Compatible
-Plugin Note=[video] (see GameFAQ)
-Audio Signal=Yes
-MD5=2430AC93B21D069F69581BD40EAE2B0E
-Sync Audio=1
-
-[93945F48-5C0F2E30-C:50]
-Good Name=Super Smash Bros. (E) [!]
-Internal Name=SMASH BROTHERS
-CPU Type=Recompiler
-Self-modifying code Method=Change Memory
-Use TLB=No
-Counter Factor=2
-Use Large Buffer=No
-Status=Compatible
-Plugin Note=[video] (see GameFAQ)
-Audio Signal=Yes
-MD5=4F17C7F7904F22B2187F33CBEB1CD986
-Sync Audio=1
-
-[916B8B5B-780B85A4-C:45]
-Good Name=Super Smash Bros. (U) [!]
-Internal Name=SMASH BROTHERS
-CPU Type=Recompiler
-Self-modifying code Method=Change Memory
-Use TLB=No
-Counter Factor=2
-Use Large Buffer=No
-Status=Compatible
-Plugin Note=[video] (see GameFAQ)
-Self Texture=0
-//Resolution Width=-1
-//Resolution Height=-1
-Culling=1
-Audio Signal=Yes
-MD5=EF0CDB9807515787D2EF0853AA729C2B
-Sync Audio=1
-CustomSMM=1
-SMM-TLB=0
-Clear Frame=0
-Resolution Width=-1
-Resolution Height=-1
-
 [9CE02E22-206EF1B0-C:4A]
 Good Name=Super Speed Race 64 (J) [!]
 Internal Name=SUPER SPEED RACE 64
