@@ -1,5 +1,0 @@
-#.gitignore
-# this directory is used by kaillera for krec recordings
-
-*
-!.gitignore

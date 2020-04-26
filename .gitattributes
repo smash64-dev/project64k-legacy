@@ -6,6 +6,7 @@ README.md export-ignore
 Cfg/tools.ini export-subst
 package.sh export-ignore
 Release export-ignore
+Resources export-ignore
 Tools/updater export-ignore
 Tools/updater.cfg export-subst
 Tools/user.cfg export-ignore
@@ -13,20 +14,20 @@ Tools/user.cfg export-ignore
 # git lfs
 libhidapi-0.dll filter=lfs diff=lfs merge=lfs -text
 Net/plugin.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/AudioHLE.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/audio.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/controller.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/graphics.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/AudioHLE.dll.disabled filter=lfs diff=lfs merge=lfs -text
 Plugin/GLideN64_20.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/GLideN64_30.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/GLideN64_40.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/Jabo_DInput.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/GLideN64_40.dll.disabled filter=lfs diff=lfs merge=lfs -text
 Plugin/Jabo_Direct3D7.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/Jabo_Dsound.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/No_Sound.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/NRage_DInput8_161.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/NRage_DInput8_V2_183.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/NRage_Input_V2_23c.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/NRage_Input_V2_23c.dll.disabled filter=lfs diff=lfs merge=lfs -text
 Plugin/pj64raphnetraw_106.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/pj64raphnetraw_net_106.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/RSP.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/rsp.dll filter=lfs diff=lfs merge=lfs -text
 Project64KVE.exe filter=lfs diff=lfs merge=lfs -text
 Tools/7za.exe filter=lfs diff=lfs merge=lfs -text
 Tools/package-updater.exe filter=lfs diff=lfs merge=lfs -text
