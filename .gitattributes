@@ -28,6 +28,6 @@ Plugin/NRage_Input_V2_23c.dll.disabled filter=lfs diff=lfs merge=lfs -text
 Plugin/pj64raphnetraw_106.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/pj64raphnetraw_net_106.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/rsp.dll filter=lfs diff=lfs merge=lfs -text
-Project64KVE.exe filter=lfs diff=lfs merge=lfs -text
+Project64KSE.exe filter=lfs diff=lfs merge=lfs -text
 Tools/7za.exe filter=lfs diff=lfs merge=lfs -text
 Tools/package-updater.exe filter=lfs diff=lfs merge=lfs -text

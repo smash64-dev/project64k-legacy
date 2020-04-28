@@ -1,5 +1,7 @@
 # .gitignore
 
+.vs
+
 # ignore git archive releases
 Release
 Tools/user.cfg
