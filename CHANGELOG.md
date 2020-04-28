@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.9.4] - 2020-04-28
+
+### Added
+
+- New Kirbox application icon
+- Make GLideN64 2 have its own (standard) config
+- Version date in build
+
+### Changed
+
+- Help > Update Emulator is now File > Open Tools
+- Default plugins (AzimersHLE 0.30, GLideN64 4, NRage 2.23c)
+- Removed GLideN64 3, as it's redundant
+- Exe is now 'Project64KSE.exe'
+- Registry paths for PJ64 and Jabos are different from Project64KVE
+- Manage (A) and (E) versions of Smash64 too
+- Change various GUI text elements
+
+### Fixed
+
+- Netplay using hard coded plugins
+- Removed plugins incompatible with netplay
+- Initial download not having correct Smash RDB entries
+
 ## [0.9.2] - 2020-04-22
 
 ### Added
@@ -29,3 +53,4 @@
 [0.9.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.0
 [0.9.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.1
 [0.9.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.2
+[0.9.4]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.4
