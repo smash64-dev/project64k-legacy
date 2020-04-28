@@ -7,16 +7,12 @@ Cfg/tools.ini export-subst
 package.sh export-ignore
 Release export-ignore
 Resources export-ignore
-Tools/updater export-ignore
 Tools/updater.cfg export-subst
 Tools/user.cfg export-ignore
 
 # git lfs
 libhidapi-0.dll filter=lfs diff=lfs merge=lfs -text
 Net/plugin.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/audio.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/controller.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/graphics.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/AudioHLE.dll.disabled filter=lfs diff=lfs merge=lfs -text
 Plugin/GLideN64_20.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/GLideN64_40.dll.disabled filter=lfs diff=lfs merge=lfs -text
