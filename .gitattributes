@@ -14,11 +14,11 @@ Tools/user.cfg export-ignore
 libhidapi-0.dll filter=lfs diff=lfs merge=lfs -text
 Net/plugin.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/audio.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/controller.dll filter=lfs diff=lfs merge=lfs -text
-Plugin/graphics.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/AudioHLE.dll.disabled filter=lfs diff=lfs merge=lfs -text
+Plugin/controller.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/GLideN64_20.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/GLideN64_40.dll.disabled filter=lfs diff=lfs merge=lfs -text
+Plugin/graphics.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/Jabo_Direct3D7.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/No_Sound.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/NRage_DInput8_161.dll filter=lfs diff=lfs merge=lfs -text
