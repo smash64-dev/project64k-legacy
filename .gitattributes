@@ -3,7 +3,7 @@
 .gitignore export-ignore
 CHANGELOG.md export-ignore
 README.md export-ignore
-Cfg/tools.ini export-subst
+Cfg/tools.cfg export-subst
 package.sh export-ignore
 Release export-ignore
 Resources export-ignore
