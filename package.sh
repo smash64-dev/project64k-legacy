@@ -77,71 +77,75 @@ ${key}${delim}${val}"
 }
 
 function commit_changes() {
-    local version="$1"
-    local message="Automated: Create release package '${version}'"
+	local version="$1"
+	local message="Automated: Create release package '${version}'"
 
-    echo "- Committing changes and creating '${version}' tag"
-    git commit -am "$message"
-    git tag -a "$version" -m "$version"
+	echo "- Committing changes and creating '${version}' tag"
+	git commit -am "$message"
+	git tag -a "$version" -m "$version"
 }
 
 function package_release() {
-    local release_dir="$1"
-    local release_name="$2"
+	local release_dir="$1"
+	local release_name="$2"
 
-    echo "- Creating git archive and moving files to $(basename "$release_dir")"
-    git archive --format=zip --output="${release_dir}/${release_name}" HEAD
+	echo "- Creating git archive and moving files to $(basename "$release_dir")"
+	git archive --format=zip --output="${release_dir}/${release_name}" HEAD
 
-    local files=(
-        'CHANGELOG.md'
-    )
+	local files=(
+		'CHANGELOG.md'
+	)
 
-    for file in "${files[@]}"; do
-        cp -f "${SELF_DIR}/${file}" "${release_dir}/${file}"
-    done
+	for file in "${files[@]}"; do
+		cp -f "${SELF_DIR}/${file}" "${release_dir}/${file}"
+	done
 
-    (cd "$release_dir" && sha1sum "$release_name" > sha1sum.txt)
+	(cd "$release_dir" && sha1sum "$release_name" > sha1sum.txt)
 }
 
 function prompt_version() {
-    # this regex is not the recommeneded regex for semver, but it will work well enough for basic
-    # https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string
-    local valid_version='^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*).*$'
+	# this regex is not the recommeneded regex for semver, but it will work well enough for basic
+	# https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string
+	local valid_version='^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*).*$'
 
-    local prompt_version=""
-    while [[ ! "$prompt_version" =~ $valid_version ]]; do
-        read -rp "Input a valid 'semver' version name: " prompt_version
-    done
+	local prompt_version=""
+	while [[ ! "$prompt_version" =~ $valid_version ]]; do
+		read -rp "Input a valid 'semver' version name: " prompt_version
+	done
 
-    local version_entries=(
-        'Cfg/tools.cfg|Meta|Version'
-        'Tools/updater.cfg|Package|Version'
-    )
+	local version_entries=(
+		'Cfg/tools.cfg|Meta|Version'
+		'Tools/updater.cfg|Package|Version'
+	)
 
-    local file=''
-    local section=''
-    local key=''
+	local file=''
+	local section=''
+	local key=''
 
-    # change version strings in various ini files
-    for entry in "${version_entries[@]}"; do
-        file="$(echo "$entry" | awk -F'|' '{print $1}')"
-        section="$(echo "$entry" | awk -F'|' '{print $2}')"
-        key="$(echo "$entry" | awk -F'|' '{print $3}')"
+	# change version strings in various ini files
+	for entry in "${version_entries[@]}"; do
+		file="$(echo "$entry" | awk -F'|' '{print $1}')"
+		section="$(echo "$entry" | awk -F'|' '{print $2}')"
+		key="$(echo "$entry" | awk -F'|' '{print $3}')"
 
-        ini_val "$file" "${section}.${key}" "${prompt_version#v}"
-    done
+		ini_val "$file" "${section}.${key}" "${prompt_version#v}"
+	done
 
 	# change date string while we're changing the version
 	ini_val "Cfg/tools.cfg" "Meta.Date" "$(date +"%Y/%m/%d")"
 
-    echo "$prompt_version"
+	echo "$prompt_version"
 }
 
 function update_self() {
-    local updater="$1"
+	local updater="$1"
 
-    echo "- Running package-updater on self to update local configs"
-    $updater "$updater"
+	# support building on multiple platforms
+	echo "- Running package-updater on self to update local configs"
+	case $(uname -s) in
+		[Ll]inux)	wine cmd.exe /c "$updater -s" ;;
+		*)			$updater "-s" ;;
+	esac
 }
 
 # entry point
@@ -157,7 +161,6 @@ cd "$SELF_DIR" || exit
 mkdir -p "$OUTPUT_DIR"
 VERSION="$(prompt_version)"
 
-# TODO: make a self-updating mode that avoids notifications
 update_self "${SELF_DIR}/${UPDATER_EXE}"
 commit_changes "$VERSION"
 package_release "$OUTPUT_DIR" "$OUTPUT_FILE"
