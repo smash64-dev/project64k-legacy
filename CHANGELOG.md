@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.5] - 2020-04-29
+
+### Added
+
+- GLideN64 latest and GLideN64 2.0 support
+- NRage 2.23 support
+
 ## [0.9.4] - 2020-04-28
 
 ### Added
@@ -54,3 +61,4 @@
 [0.9.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.1
 [0.9.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.2
 [0.9.4]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.4
+[0.9.5]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v0.9.5
