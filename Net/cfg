@@ -1,6 +1,7 @@
 # kaillera config (originally n02.ini)
-#
+
 # server config
+
 [SC]
 CNS=0
 QMSG=Project64KSE - https://smash64.online
@@ -22,6 +23,7 @@ SLS1=Add servers from Lists below
 SLH1=
 
 # p2p config
+
 [p2p]
 JOINMSG=Project64KSE - https://smash64.online
 XPOS=10
