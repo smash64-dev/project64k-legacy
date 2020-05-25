@@ -1,5 +1,7 @@
 // template.lng
 // this file contains every language item for Project64KSE
+// some menu items and text elements are not translatable
+//
 // key/value are exactly as they appear in the binary, including
 // spelling errors. MenuDes are duplicates of their menu text.
 
