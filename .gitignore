@@ -4,7 +4,7 @@
 
 # ignore git archive releases
 Release
-Tools/user.cfg
+#Tools/user.cfg
 
 # found embedded in Project64KVE.exe
 hotquik_debug.txt
