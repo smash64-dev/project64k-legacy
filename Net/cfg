@@ -21,6 +21,7 @@ USERJOINLEAVE=1
 SLC=1
 SLS1=Add servers from Lists below
 SLH1=
+USRN=cenni
 
 # p2p config
 
@@ -38,3 +39,4 @@ IDC_TAB=1
 ULISTC=1
 ULUN1=Your opponent must port forward
 ULHN1=
+IDC_USRNAME=cenni
