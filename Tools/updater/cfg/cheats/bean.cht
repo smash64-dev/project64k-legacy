@@ -1,6 +1,7 @@
 // CHT for PJ64 & Mupen64Plus (Compatible with all versions)
 
 //----
+
 [93945F48-5C0F2E30-C:50]
 Name=Super Smash Bros (E)
 Cheat0="Give Kirby A Wierd Blow-Up",802669B8 000A
@@ -80,6 +81,7 @@ Cheat33_N=Only put this on after you have alreay Chose your Character on the Mai
 Cheat34_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
 Cheat42_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
 
+//----
 
 //SMASH BROTHERS
 [67D20729-F696774C-C:4A]
@@ -186,6 +188,7 @@ Cheat72="Stage Select\Duel Zone",800A2CC9 000E
 Cheat73="Stage Select\Race To The Finish",800A2CC9 000F
 
 //----
+
 //Super Smash Bros.(U)[!]
 [916B8B5B-780B85A4-C:45]
 Name=SMASH BROTHERS
@@ -755,7 +758,6 @@ Cheat255="0SETUP no whispy",810A4938 0FF0,800A4937 00FF,810FAF9C 0800,810FAF9E C
 Cheat256="0-Range",800A4AD0 0003
 Cheat256_N=
 
-
 //----
 
 [75298221-B28495FC-C:45]
@@ -1308,6 +1310,8 @@ Cheat240="0Double click to pick stage",800A4D12 0000,D0099113 0018,D00A4D09 0010
 Cheat240_N=Stage Select is OFF with this code on.
 Cheat240_O=$00 - Peach's Castle,$01 - Sector Z,$02 - Congo Jungle,$03 - Planet Zebes,$04 - Hyrule Castle,$05 - Yoshi's Island,$06 - Dream Land,$07 - Saffron City,$08 - Classic Mushroom Kingdom,$09 - Dream Land Beta 1,$10 - Final Destination,$0A - Dream Land Beta 2,$0B - Level From "How To Play SSB Demo",$0C - Random ?,$0D - Metal Mario's Stage,$0E - Fighting Polygon Team Level,$0F - Race to the Finish!
 
+//----
+
 [2829657E-A0621877-C:45]
 Name=MarioParty
 Cheat0="P1 99 stars",810F32BC 0063
@@ -1318,6 +1322,8 @@ Cheat4="P3 99 stars",810F331C 0063
 Cheat5="P3 901 coins",810F3318 0385
 Cheat6="P4 99 stars",810F334C 0063
 Cheat7="P4 902 coins",810F3348 0386
+
+//----
 
 [6F2B89B5-74FE16DD-C:45]
 Name=super smash bird
@@ -1873,6 +1879,8 @@ Cheat241_N=
 Cheat251="Skip stage select + pick stage",800A4D12 0000,D0099113 0018,D00A4D09 0010,81104C14 2002,D00A4D09 0010,800A4D09 00??
 Cheat251_N=Stage Select is OFF with this code on.
 Cheat251_O=$00 - Peach's Castle,$01 - Sector Z,$02 - Congo Jungle,$03 - Planet Zebes,$04 - Hyrule Castle,$05 - Yoshi's Island,$06 - Dream Land,$07 - Saffron City,$08 - Classic Mushroom Kingdom,$09 - Dream Land Beta 1,$10 - Final Destination,$0A - Dream Land Beta 2,$0B - Level From "How To Play SSB Demo",$0C - Random ?,$0D - Metal Mario's Stage,$0E - Fighting Polygon Team Level,$0F - Race to the Finish!
+
+//----
 
 //19XXTE 1.1 (U)
 [9B0D1C9E-5BE79ACE-C:45]
@@ -2439,10 +2447,14 @@ Cheat252="other cheats\S P A C E G I R L S",812f9950 0400,812F9952 0000,812F99CC
 Cheat253="other cheats\Neutral Spawns",810FAF9C 0800,810FAF9E C981,810FAFA0 2400,81032604 3408,81032606 0000,81032608 1504,8103260A 0002,8103260C 2400,81032610 3404,81032612 0003,81032614 3C07,81032616 8013,81032618 0803,8103261A EBE9,8103261C 8CE7,8103261E 1380
 Cheat253_N=Spawns P1 and P2 on side platforms of Dreamland. Cheat swaps P1/P4 so it doesn't make all stages have neutral spawns.
 
+//----
+
 [4FC69A45-2180D0B7-C:45]
 Name=19XXNE
 Cheat0="Combo Meter Toggle ON",81385D6E 0001
 Cheat0_N=
+
+//----
 
 [4FC69AA5-84C0FF92-C:45]
 Name=19XXNE
