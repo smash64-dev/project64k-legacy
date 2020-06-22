@@ -1307,9 +1307,7 @@ Cheat5_O=$0000 Broom,$0101 Shovel,$0202 Red And White Hockey Stick,$0303 Guitar,
 Cheat6_O=$0000 Broom,$0101 Shovel,$0202 Red And White Hockey Stick,$0303 Guitar,$0404 Night Stick,$0505 Head,$0606 Black Hockey Stick,$0707 Bottle,$0808 2x4,$0909 Big Purple Sheet,$0A0A White Jug,$0B0B Suit Case,$0C0C Stick,$0D0D Head,$0E0E Big Mallot,$0F0F Black Microphone,$1010 BaseBall Bat,$1111 Folding Chair,$1212 Board,$1313 Stairs,$1414 Trashcan,$FFFF Nothing
 Cheat7_O=$0000 Broom,$0101 Shovel,$0202 Red And White Hockey Stick,$0303 Guitar,$0404 Night Stick,$0505 Head,$0606 Black Hockey Stick,$0707 Bottle,$0808 2x4,$0909 Big Purple Sheet,$0A0A White Jug,$0B0B Suit Case,$0C0C Stick,$0D0D Head,$0E0E Big Mallot,$0F0F Black Microphone,$1010 BaseBall Bat,$1111 Folding Chair,$1212 Board,$1313 Stairs,$1414 Trashcan,$FFFF Nothing
 
-
 //--------------- (JU) Region Cheat Codes ---------------
-
 
 [1FBAF161-2C1C54F1-C:41]
 Name=1080 Snowboarding (JU) (M2)
@@ -1333,9 +1331,7 @@ Cheat14="Match Race Codes\Infinite Damage Crystal Lake",812E09BE 004B
 Cheat15="Play As",800200E7 00??
 Cheat15_O=$00 Dion Blaster,$01 Kensuke Kimachi,$02 Akari Hayami,$03 Ricky Winterborn,$04 Rob Haywood,$05 Silver Boarder,$06 Gold Boarder,$07 Panda Boarder
 
-
 //--------------- (U) Region Cheat Codes ---------------
-
 
 [82DC04FD-CF2D82F4-C:45]
 Name=A Bug's Life (J)
@@ -2608,14 +2604,10 @@ Cheat147="Other Codes\Stun Meters Modifier",800AE5FB 00??
 Cheat148="Other Codes\Super Meters Modifier",800AE607 00??
 Cheat149="Other Codes\Portraits Modifier",800AE613 00??
 Cheat141_O=$00 Cookie,$01 Easy,$02 Normal,$03 Dude,$04 Psycho
-
 Cheat142_O=$00 On,$01 Off
-
 Cheat143_O=$00 On,$01 Off
-
 Cheat144_O=$00 Random,$01 Normal
 Cheat145_O=$00 Normal,$01 Psycho
-
 Cheat146_O=$00 Off,$01 On
 Cheat147_O=$00 Off,$01 On
 Cheat148_O=$00 Off,$01 On
@@ -4928,7 +4920,6 @@ Cheat61_N=If you go to an area where Link is immobile or invisible, using the "a
 Cheat62="Beta\Interface always off/on",8011B4B9 00FF,8011B92F 00??
 Cheat62_O=$00 Off,$01 On
 Cheat62_N=If you go to an area where the interface is accessible, this signigfies that you're not in 'beta' mode anymore. Using the "interface always off/on" code, you can stay in 'beta' mode regardless of what happens. This may cause more crashes in SOME areas, but it's rare and is not too severe. If you need to explore a beta area with the interface, "use the interface always on" portion of the code. Don't use the codes as you start the game. If you need the interface on/off at a specific time, start the game, go to the area, activate the code, keep it on until next reset.
-
 Cheat63="Always Have Wallet Size",8011A672 00??
 Cheat63_O=$47 Kid Wallet (Holds 99),$57 Adult Wallet (Holds 200),$67 Giant Wallet (Holds 500)
 Cheat10_O=$11 Kokiri Tunic & Kokiri Boots,$12 Goron Tunic & Kokiri Boots,$13 Zora Tunic & Kokiri Boots,$14 Black Tunic & Kokiri Boots,$15 White Tunic & Kokiri Boots,$16 Yellow Tunic & Kokiri Boots,$21 Kokiri Tunic & Iron Boots,$22 Goron Tunic & Iron Boots,$23 Zora Tunic & Iron Boots,$24 Black Tunic & Iron Boots,$25 White Tunic & Iron Boots,$26 Yellow Tunic & Iron Boots,$31 Kokiri Tunic & Hover Boots,$32 Goron Tunic & Hover Boots,$33 Zora Tunic & Hover Boots,$34 Black Tunic & Hover Boots,$35 White Tunic & Hover Boots,$36 Yellow Tunic & Hover Boots
@@ -5039,7 +5030,6 @@ Cheat60="Beta\Specific things lean",800257D4 0001
 Cheat60_N=This code will cause all items on a specific plane to lean. This is helpful for areas in which the plane causes the crash (Ex. Weird Zora's Fountain Beta Quest World 01)
 Cheat61="Beta\Appear in Strange Places (Hold R)",D01C8675 0010,8111BAF6 0001
 Cheat61_N=If you go to an area where Link is immobile or invisible, using the "appear in strange places" code will almost always fix it, but you'll start somewhere outside of the Arena and in air. I recommend using the infinite step Hover boots code already supplied with PJ64 so you can float back into the arena in the event that this happens.
-
 Cheat62="Beta\Interface always off/on",8011B679 00FF,8011BAEF 00??
 Cheat62_O=$00 Off,$01 On
 Cheat62_N=If you go to an area where the interface is accessible, this signigfies that you're not in 'beta' mode anymore. Using the "interface always off/on" code, you can stay in 'beta' mode regardless of what happens. This may cause more crashes in SOME areas, but it's rare and is not too severe. If you need to explore a beta area with the interface, "use the interface always on" portion of the code. Don't use the codes as you start the game. If you need the interface on/off at a specific time, start the game, go to the area, activate the code, keep it on until next reset.
@@ -5543,7 +5533,6 @@ Cheat18_N=Select where you want to go then Enable the cheat. as soon as you ente
 
 //----
 
-//Mario Party 2 (U)
 [9EA95858-AF72B618-C:45]
 Name=MarioParty2
 Cheat0="Infinite Coins Main Menu",810F8CD2 FFFF
@@ -7114,7 +7103,6 @@ Cheat16="Pyramid Scheme\Max Tickets",810A5940 FFFF,810A5942 FFFF,810A5944 FFFF,8
 Cheat17="Pyramid Scheme\Infinite Time",810A594E FFFF
 Cheat18="Food Fright\Max Tickets",810A5950 FFFF,810A5952 FFFF,810A5954 FFFF,810A5956 FFFF,810A5958 FFFF,810A595A FFFF,810A595C FFFF
 Cheat19="Food Fright\Infinite Time",810A595E FFFF
-
 
 //----
 
@@ -8723,7 +8711,6 @@ Cheat57="Language Select",80119D41 00??
 Cheat57_O=$00 English,$01 German,$02 French
 Cheat58="Press L\To Levitate",D011BB11 0020,811D93D0 40CB
 Cheat59="Press L\For Infinite Hover Boots",D011BB11 0020,811D9BF2 000D
-
 Cheat60="Instant Step Hoover Boots",D011BB11 0020,811D93D0 40CB,D011BB11 0000,811D9BF2 000D,801189A8 00??
 Cheat60_O=$31 Kokiri Tunic & Hover Boots,$32 Goron Tunic & Hover Boots,$33 Zora Tunic & Hover Boots,$34 Black Tunic & Hover Boots,$35 White Tunic & Hover Boots,$36 Yellow Tunic & Hover Boots
 Cheat61="Beta\Specific things lean",8002397C 0001
@@ -8842,7 +8829,6 @@ Cheat57="Language Select",80119D41 00??
 Cheat57_O=$00 English,$01 German,$02 French
 Cheat58="Press L\To Levitate",D011BB11 0020,811D93D0 40CB
 Cheat59="Press L\For Infinite Hover Boots",D011BB11 0020,811D9BF2 000D
-
 Cheat60="Instant Step Hoover Boots",D011BB11 0020,811D93D0 40CB,D011BB11 0000,811D9BF2 000D,801189A8 00??
 Cheat60_O=$31 Kokiri Tunic & Hover Boots,$32 Goron Tunic & Hover Boots,$33 Zora Tunic & Hover Boots,$34 Black Tunic & Hover Boots,$35 White Tunic & Hover Boots,$36 Yellow Tunic & Hover Boots
 Cheat61="Beta\Specific things lean",8002397C 0001
@@ -8879,10 +8865,7 @@ Cheat4_N=This cheat causes the Goron Temple door not to open, but if you go to t
 Cheat65="Press L\For Winfy's End Credits Fix",D011BB11 0020,8011893B 0129,D011BB11 0020,80118943 FFF1
 Cheat65_N=Press L to get past the End Credits Crash Bug (after Link give Zelda the Ocarina just as she says Goodbye) and Let go off the L Button Once the Credits start. Many thanks to winfy for such a great code.also if you press L and Reset (F1) you will end up in a place where you cant get out.
 
-
 //--------------- PAL (E) Reigion Cheat Codes
-
-
 
 [0414CA61-2E57B8AA-C:50]
 Name=GOLDENEYE
@@ -8893,12 +8876,10 @@ Cheat2="Enable All Levels & In-Built Cheat Menu",8105886E FFFF,80058870 00FF,800
 Cheat3="All Objectives Complete",80064C9B 0001,80064C9F 0001,80064CA3 0001,80064CA7 0001,80064CAB 0001
 Cheat4="Freeze Unfreeze enemies",D00572D1 0008,80027E5C 000F,D00572D1 0004,80027E5C 0000
 Cheat1_N="These Codes Are very very cool but in most places pointless ! But great fun, try then. But remember to deactivate them before coming to the end of the level, otherwise, there will be nothing/no one, to meet or do (:"
-
 Cheat2_N=This code gives you all of the levels, all of the in-game cheats, and the special 007 mode!Hit the "A" button until you come to the place where you choose your level. EVERY SINGLE ONE SHOULD BE THERE. Hit "B" again and check out the Cheats. ALL 23 SHOULD BE THERE. When you pick your stage, you will see another difficulty level, "007". This is the level editor, where you can change all kinds of stuff!
 Cheat4_N=Press C-Up To Freeze & C-Down To Unfreeze.
 Cheat6="Facility Back Zone In Multiplayer\Part 1\2 players",811E6554 45E4,811E6558 43D5,811E655C C5A7,811E657C 801C,811E657E 6774,811E5164 45E4,811E5168 C383,811E516C 4492,811E518C 801C,811E518E D574,811E78C0 45AD,811E78C4 C383,811E78C8 4440,811E78E8 801C,811E78EA E464,811E4D18 45D0,811E4D1C 4307,811E4D20 C4FB,811E4D40 801C,811E4D42 75EC,811E6738 45CD,811E673C C383,811E6740 43F4,811E6760 801C,811E6762 A0DC,811E5450 45C2,811E5454 4356,811E5458 C598,811E5478 801C,811E547A 6A74,811E5240 4608,811E5244 4307,811E5248 43DC,811E5268 801C,811E526A 962C,811E691C 4606,811E6920 4321,811E6924 449D,811E6944 801C,811E6946 CBEC,801ED447 008A,801ED4DB 008B,801ED56F 008C,801ED603 008D,801ED697 008E,801ED72B 008F,801ED7BF 007D,801ED853 007E,801ED443 002A,801ED4D7 002A,801ED56B 002A,801ED5FF 002A,801ED693 002A,801ED727 002A,801ED7BB 002A,801ED84F 002A,801ED449 0000,801ED4DD 0000,801ED571 0000,801ED605 0000,801ED699 0000,801ED72D 0000,801ED7C1 0000,801ED855 0000,801ED44D 0000,801ED4E1 0000,801ED575 0000,801ED609 0000,801ED69D 0000,801ED731 0000,801ED7C5 0000,801ED859 0000,801EB743 002A,801EB745 0068,811EB746 277F,811EB748 1000,811EB74A 0262,811EB7C2 0190,801EB7C5 0000,811EB7C6 0258
 Cheat7="Facility Back Zone In Multiplayer\Part 2\2 players",811EB7C8 0000,811EB7CC FFFF,811EB7CE FFFF,811EB7D2 0000,801EB7D5 0000,801EB7DB 0000,811EB7E2 0000,801EB7E7 0000,801EB843 002A,801EB845 0068,811EB846 2780,811EB848 1000,811EB84A 0262,811EB8C2 0190,801EB8C5 0000,811EB8C6 0258,811EB8C8 0000,811EB8CC FFFF,811EB8CE FFFF,811EB8D2 0000,801EB8D5 0000,801EB8DB 0000,811EB8E2 0000,801EB8E7 0000,801EB943 002A,801EB945 0068,811EB946 2791,811EB948 1000,811EB94A 0262,811EB9C2 0190,801EB9C5 0000,811EB9C6 0258,811EB9C8 0000,811EB9CC FFFF,811EB9CE FFFF,811EB9D2 0000,801EB9D5 0000,801EB9DB 0000,811EB9E2 0000,801EB9E7 0000,801EBA43 002A,801EBA45 0068,811EBA46 2792,811EBA48 1000,811EBA4A 0262,811EBAC2 0190,801EBAC5 0000,811EBAC6 0258,811EBAC8 0000,811EBACC FFFF,811EBACE FFFF,811EBAD2 0000,801EBAD5 0000,801EBADB 0000,811EBAE2 0000,801EBAE7 0000,801EBB45 00A0,801EBC45 00A0,801EBD45 00A0,801EBE45 00A0,801EBB47 0075,801EBC47 0076,801EBD47 0077,801EBE47 0078,801EBBE7 0001,801EBCE7 0001,801EBDE7 0001,801EBEE7 0001,801EC247 0071,801ECD47 0072,801ECE47 0074,801ECF47 006C,801ED047 0079,801ED147 0083,D01EBFC5 005A,801EBFC5 0000,D11EBFC6 0000,811EBFC6 F333,D11EBFC8 03E8,811EBFC8 0000
-
 Cheat8="Facility Back Zone In Multiplayer\Part 3\2 players",D11EBFCA 0000,811EBFCA F0C4,D11EBFCE 4CCC,811EBFCE 000A,D11EBFD2 4CCC,811EBFD2 000A,D11EBFD4 0003,811EBFD4 0000,D11EBFD6 0000,811EBFD6 02C4,801EBFD9 0004,801EBFDB 0000,811EBFE2 0384,801EBFE7 0004,801EBF45 009E,801EBF47 0084,801EBF48 0010,801EC2D9 0000,801EC447 0085,801EC547 0086,811EA6B6 2743,811EA73E 0114,811EA7F2 0115,811EA8A6 00A3,811EA92E 009D,811EA9E2 00A4,811EAA96 00DA,811EAB1E 00DB,811EABD2 00DF,811EAC86 0130,811EAD0E 008D,811EADC2 012E,811EAE76 0111,811EAEFE 2740,811EAFB2 2741,811EB066 00A0,811EB0EE 009E,811EB1A2 009F,811EB256 274F,811EB2DE 2750,811EB392 0117,811EB446 0131,811EB4CE 008E,811EB582 0132,811EB636 00A1,811EB6BE 0119,811EA62E 00FA,801ED3DF 0000,801ED2DF 0001,D0024337 0007,80024337 001F
 Cheat9="All 64 Characters In Multi Player",800266E7 0040
 Cheat6_N=All parts must be on for this code to work.this cheat allows you to play the Facility Back Zone In Multiplayer
@@ -8909,7 +8890,6 @@ Cheat5_N=Puts the cradle graphic in the levels screen where the facility normall
 Cheat10="Replace Cradle with Citadell hidden level ",80025E47 0029,8103DB6A D9B4,8103DB70 3F44,8103DB72 BDEA,8103DB74 3F80,8103DB76 0000,8103DB78 4219,8103DB7A D89D,81058EC0 C470
 Cheat11="Secret Island on Dam Level",D004C2D1 0020,800BA78D 0050,880BA78D 0000
 Cheat11_N=For the above code to work,Get to the 2nd guard tower & go down the ladder on the left hand side & to the end of the Dock, Press L & F9 and you will be transfered in the water. Just keep walking straight & you will get to it. Obviously you can't actually climb ladders or anything, you will simply walkthrough anything on that Part, if you want to walk back to the Dock, when you come near it click the cheat back on & keep pressing  L & F9 untill you are back on it.
-
 
 //----
 
@@ -9290,6 +9270,7 @@ Cheat9="Flat Shading",81025CF6 0000
 
 //----
 .
+
 [7C64E6DB-55B924DB-C:50]
 Name=Blast Corps (E)
 Cheat0="Infinite Hydraulics Sidesweeper",803EDB51 0063
@@ -9333,6 +9314,7 @@ Cheat4_N=Press L to levitate & let go to come back down
 
 //----
 T
+
 [0B58B8CD-B7B291D2-C:50]
 Name=Body Harvest (E)
 Cheat0="Infinite\Greece",81052B48 0098,81052B4A 967F
@@ -13725,92 +13707,320 @@ Cheat0_N=This is needed to be able to Play all Levels of the Game
 
 //End Of File---------->Anything under here was put in by you<--------------------------------
 
+[67D20729-F696774C-C:4A]
+Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat11=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat11_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat12=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat12_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat16=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat16_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat17=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat17_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat18=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat18_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat19=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat19_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat21=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat21_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat22=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat22_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat23=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat23_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat24=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat24_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat25=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat25_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat26=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat26_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat27=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat27_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat4=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat4_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat5=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat5_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat6=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat6_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat7=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat7_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat8=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat8_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat9=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat9_N=This cheat slot is reserved for future use by PJ64KSE
+Name=Nintendo All-Star! Dairantou Smash Brothers (J)
+
+[DD26FDA1-CB4A6BE3-C:55]
+Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat11=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat11_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat12=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat12_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat16=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat16_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat17=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat17_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat18=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat18_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat19=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat19_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat21=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat21_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat22=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat22_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat23=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat23_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat24=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat24_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat25=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat25_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat26=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat26_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat27=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat27_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat4=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat4_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat5=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat5_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat6=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat6_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat7=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat7_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat8=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat8_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat9=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat9_N=This cheat slot is reserved for future use by PJ64KSE
+Name=Super Smash Bros. (A) [!]
+
+[93945F48-5C0F2E30-C:50]
+Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat11=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat11_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat12=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat12_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat16=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat16_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat17=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat17_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat18=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat18_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat19=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat19_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat21=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat21_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat22=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat22_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat23=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat23_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat24=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat24_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat25=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat25_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat26=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat26_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat27=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat27_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat4=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat4_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat5=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat5_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat6=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat6_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat7=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat7_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat8=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat8_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat9=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat9_N=This cheat slot is reserved for future use by PJ64KSE
+Name=Super Smash Bros. (E) [!]
+
 [916B8B5B-780B85A4-C:45]
-Name=SMASH BROTHERS
-Cheat0="Give Kirby A Wierd Blow-Up",8025E158 000A
-Cheat1="Story Mode\Skip Straight To Master Hand",800A4AE7 000D
-Cheat2="Story Mode\Infinite Time",810A4B2E 43CB
-Cheat3="Story Mode\Player 1\Infinite Lives",800A4B43 0004
-Cheat4="Story Mode\Player 2\Infinite Lives",800A4BB7 0004
-Cheat5="Story Mode\Player 3\Infinite Lives",800A4C2B 0004
-Cheat6="Story Mode\Player 4\Infinite Lives",800A4C9F 0004
-Cheat7="Story Mode\Player 1\Low % Health",810A4B86 0000
-Cheat8="Story Mode\Player 2\Low % Health",810A4BFA 0000
-Cheat9="Story Mode\Player 3\Low % Health",810A4C6E 0000
-Cheat10="Story Mode\Player 4\Low % Health",810A4CE2 0000
-Cheat11="Story Mode\Player 1\Character Modifier",800A4B3B 00??
-Cheat12="Story Mode\Player 2\Character Modifier",800A4BAF 00??
-Cheat13="Story Mode\Player 3\Character Modifier",800A4C23 00??
-Cheat14="Story Mode\Player 4\Character Modifier",800A4C97 00??
-Cheat15="Story Mode\Player 1\Kirby B Button Move\Hyrule Castle",80268B0F 00??
-Cheat16="Story Mode\Player 1\Kirby B Button Move\Yoshi's Island",80268E4F 00??
-Cheat17="Story Mode\Player 1\Kirby B Button Move\Sector Z",802710F7 00??
-Cheat18="Story Mode\Player 1\Kirby B Button Move\Peach's Castle",80263D9F 00??
-Cheat19="Story Mode\Player 1\Kirby B Button Move\Saffron City",80273A97 00??
-Cheat20="Story Mode\Player 1\Kirby B Button Move\Congo Jungle",80270ACF 00??
-Cheat21="Story Mode\Player 1\Kirby B Button Move\Kirby's Dreamland",8026DB3F 00??
-Cheat22="Story Mode\Player 1\Kirby B Button Move\Planet Zebes",8026FFA7 00??
-Cheat23="Story Mode\Player 1\Kirby B Button Move\Metal Mario Stage",80263597 00??
-Cheat24="Story Mode\Player 1\Kirby B Button Move\Fighting Polygon Team",8026271F 00??
-Cheat25="Story Mode\Player 1\Kirby B Button Move\Master Hand Stage",80271C4F 00??
-Cheat26="VS. Mode\Infinite Time",810A4D1E 43CB
-Cheat27="VS. Mode\Player 1\Low % Health",810A4D76 0000
-Cheat28="VS. Mode\Player 2\Low % Health",810A4DEA 0000
-Cheat29="VS. Mode\Player 3\Low % Health",810A4E5E 0000
-Cheat30="VS. Mode\Player 4\Low % Health",810A4ED2 0000
-Cheat31="VS. Mode\Player 1\Character Modifier",800A4D2B 00??
-Cheat32="VS. Mode\Player 2\Character Modifier",800A4D9F 00??
-Cheat33="VS. Mode\Player 3\Character Modifier",800A4E13 00??
-Cheat34="VS. Mode\Player 4\Character Modifier",800A4E87 00??
-Cheat35="VS. Mode\Player 1\Kirby B Button Move\Hyrule Castle",802639EF 00??
-Cheat36="VS. Mode\Player 1\Kirby B Button Move\Yoshi's Island",8026E2B7 00??
-Cheat37="VS. Mode\Player 1\Kirby B Button Move\Sector Z",8026BF87 00??
-Cheat38="P1 Press Down On D-Pad To Make Items Appear In Random Spots",D109EFA4 0400,8118D0A2 0001
-Cheat39="Have All Characters",810A4938 0FF0
-Cheat40="VS. Mode\Have Mushroom Kindom",800A4937 00FF
-Cheat41="Story Mode\Always Get Pacifist (60,000 Points)",810A4B6E 0000
-Cheat42="Bonus Stage Character Modifier (Training Mode)",8018F1D3 00??
-Cheat11_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat12_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat13_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat14_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat15_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat16_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat17_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat18_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat19_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat20_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat21_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat22_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat23_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat24_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat25_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat31_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat32_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat33_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat34_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat35_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat36_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat37_O=$02 D.K. Wind-up Punch,$0A Jigglypuff Puff Punch
-Cheat42_O=$00 Mario,$01 Fox,$02 DK,$03 Samus,$04 Luigi,$05 Link,$06 Yoshi,$07 C. Falcon,$08 Kirby,$09 Pikachu,$0A Jigglypuff,$0B Ness,$0C Master Hand,$0D Metal Mario,$0E Polygon Mario,$10 Polygon DK,$13 Polygon Link,$14 Polygon Yoshi,$15 Polygon Samus,$18 Polygon Kirby,$1A Giant Donkey Kong
-Cheat11_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code could also result freezing at the end of the Level.
-Cheat12_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat13_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat14_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat31_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat32_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat33_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat34_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat42_N=Only put this on after you have alreay Chose your Character on the Main Menu,& Do not use more then 1 Character Modifier at a time.Using this Code This could also result freezing at the end of the Level.
-Cheat43="---  1. Netplay Required  ---\test",80000000 0000
-Cheat44="---  2. Netplay Optional  ---\test2",80000000 0000
-Cheat45=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat45_N=45
-Cheat46=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat46_N=46
-Cheat47=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat47_N=47
-Cheat48=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat48_N=48
-Cheat49=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat49_N=49
+Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat11=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat11_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat12=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat12_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat16=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat16_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat17=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat17_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat18=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat18_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat19=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat19_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat20_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat21=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat21_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat22=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat22_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat23=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat23_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat24=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat24_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat25=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat25_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat26=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat26_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat27=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat27_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat4=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat4_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat5=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat5_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat6=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat6_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat7=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat7_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat8=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat8_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat9=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat9_N=This cheat slot is reserved for future use by PJ64KSE
+Name=Super Smash Bros. (U) [!]
+
+[74FB00B7-23C0AEEE-C:45]
+Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat11=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat11_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat12=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat12_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat3_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat4=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat4_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat5=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat5_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat6=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat6_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat7=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat7_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat8=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat8_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat9=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat9_N=This cheat slot is reserved for future use by PJ64KSE
+Name=19XXTE Genesis Edition
+
+[4FC69AA5-84C0FF92-C:45]
+Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat11=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat11_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat12=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat12_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat3_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat4=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat4_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat5=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat5_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat6=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat6_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat7=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat7_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat8=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat8_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat9=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat9_N=This cheat slot is reserved for future use by PJ64KSE
+Name=19XX Netplay Edition 1.5 (U)

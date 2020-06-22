@@ -5543,7 +5543,6 @@ Cheat18_N=Select where you want to go then Enable the cheat. as soon as you ente
 
 //----
 
-//Mario Party 2 (U)
 [9EA95858-AF72B618-C:45]
 Name=MarioParty2
 Cheat0="Infinite Coins Main Menu",810F8CD2 FFFF
