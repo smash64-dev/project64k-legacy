@@ -3,6 +3,9 @@
 # server config
 
 [SC]
+CNS=0
+QMSG=
+JOINMSG=
 XPOS=10
 YPOS=10
 WIDTH=900
@@ -18,11 +21,11 @@ USERJOINLEAVE=1
 SLC=1
 SLS1=Add servers from Lists below
 SLH1=
-USRN=cenni
 
 # p2p config
 
 [p2p]
+JOINMSG=
 XPOS=10
 YPOS=10
 WIDTH=700
