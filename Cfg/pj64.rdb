@@ -14984,15 +14984,6 @@ SMM-TLB=0
 Status=Compatible
 Use TLB=No
 ViRefresh=2200
-Clear Frame=0
-Resolution Width=-1
-Resolution Height=-1
-Save Type=First Save Type
-CPU Type=Default
-Self-modifying code Method=Default
-Reg Cache=Yes
-Use Large Buffer=No
-Linking=Global
 
 [4FC69AA5-84C0FF92-C:45]
 Counter Factor=1
@@ -15058,4 +15049,16 @@ SMM-TLB=0
 Status=Compatible
 Use TLB=No
 ViRefresh=2200
-        
+
+[40D195A0-8CA46F23-C:45]
+Counter Factor=1
+Culling=1
+Good Name=SmashRemix0.9.3c
+Internal Name=SmashRemix
+RDRAM Size=8
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Status=Compatible
+Use TLB=No
+ViRefresh=2200
