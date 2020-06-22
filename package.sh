@@ -116,7 +116,7 @@ function prompt_version() {
 	local version_entries=(
 		'Cfg/tools.cfg|Meta|Version'
 		'Tools/updater.cfg|Package|Version'
-		'Tools/cfg/base/tools.cfg|Meta|Version'
+		'Tools/updater/cfg/base/tools.cfg|Meta|Version'
 	)
 
 	local file=''
@@ -134,7 +134,7 @@ function prompt_version() {
 
 	# change date string while we're changing the version
 	ini_val "Cfg/tools.cfg" "Meta.Date" "$(date +"%Y/%m/%d")"
-	ini_val "Tools/cfg/base/tools.cfg" "Meta.Date" "$(date +"%Y/%m/%d")"
+	ini_val "Tools/updater/cfg/base/tools.cfg" "Meta.Date" "$(date +"%Y/%m/%d")"
 
 	echo "$prompt_version"
 }
