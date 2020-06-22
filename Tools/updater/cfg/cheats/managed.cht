@@ -1,8 +1,8 @@
 
 [67D20729-F696774C-C:4A]
 Name=Nintendo All-Star! Dairantou Smash Brothers (J)
-Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat0="Have All Characters",810A28F8 0FF0
+Cheat1="VS. Mode\Have Mushroom Kindom",800A28F7 00FF
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
@@ -59,13 +59,13 @@ Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FF
 Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
-Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+
+//----
 
 [DD26FDA1-CB4A6BE3-C:55]
 Name=Super Smash Bros. (A) [!]
-Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat0="Have All Characters",810A5078 0FF0
+Cheat1="VS. Mode\Have Mushroom Kindom",800A5077 00FF
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
@@ -122,14 +122,13 @@ Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FF
 Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
-Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
 
+//----
 
 [93945F48-5C0F2E30-C:50]
 Name=Super Smash Bros. (E) [!]
-Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
+Cheat0="Have All Characters",810AD198 0FF0
+Cheat1="VS. Mode\Have Mushroom Kindom",800AD197 00FF
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat3=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
@@ -186,11 +185,13 @@ Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FF
 Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
-Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+
+//----
 
 [916B8B5B-780B85A4-C:45]
 Name=Super Smash Bros. (U) [!]
+Cheat0=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat0_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
@@ -249,11 +250,13 @@ Cheat28=". -------------------------------------- .\ \Reserved for PJ64KSE",80FF
 Cheat28_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat29=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
-Cheat30=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat30_N=This cheat slot is reserved for future use by PJ64KSE
+
+//----
 
 [74FB00B7-23C0AEEE-C:45]
 Name=19XXTE Genesis Edition
+Cheat0=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat0_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
@@ -282,11 +285,13 @@ Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FF
 Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
-Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
+
+//----
 
 [4FC69AA5-84C0FF92-C:45]
 Name=19XX Netplay Edition 1.5 (U)
+Cheat0=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
+Cheat0_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat1=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat1_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
@@ -315,5 +320,3 @@ Cheat13=". -------------------------------------- .\ \Reserved for PJ64KSE",80FF
 Cheat13_N=This cheat slot is reserved for future use by PJ64KSE
 Cheat14=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat14_N=This cheat slot is reserved for future use by PJ64KSE
-Cheat15=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
-Cheat15_N=This cheat slot is reserved for future use by PJ64KSE
