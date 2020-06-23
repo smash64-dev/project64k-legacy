@@ -1,0 +1,188 @@
+// english.lng
+
+[English]
+Author=CEnnis91
+Version=1.0
+Date=2020/05/25
+
+// file menu
+MenuTitle1=&File
+FileItem1=&Open Rom
+MenuDes1=Open Rom
+FileItem2=Rom &Info...
+MenuDes2=Rom Info...
+FileItem3=&Start Emulation
+MenuDes3=Start Emulation
+FileItem4=&End Emulation
+MenuDes4=End Emulation
+FileItem5=Start &Netplay...
+FileItem6=Choose Rom Directory...
+MenuDes26=Choose Rom Directory...
+FileItem7=Refresh Rom List
+MenuDes13=Refresh Rom List
+FileItem8=Recent Rom
+MenuDes11=Recent Rom
+FileItem9=Recent Rom Directories
+MenuDes14=Recent Rom Directories
+
+// system menu
+MenuTitle2=&System
+SystemItem1=&Reset
+MenuDes6=Reset
+SystemItem2=&Pause
+MenuDes7=Pause/Resume
+SystemItem3=Generate Bitmap
+MenuDes15=Generate Bitmap
+SystemItem4=&Save
+MenuDes8=Save
+SystemItem5=&Restore
+MenuDes9=Restore
+SystemItem6=Current Save S&tate
+SystemItem7=Save As...
+MenuDes17=Save As...
+SystemItem8=Load...
+MenuDes12=Load...
+SystemItem9=Limit FPS
+MenuDes16=Limit FPS
+SaveSlotItem1=Default
+SaveSlotItem2=Slot 1
+SaveSlotItem3=Slot 2
+SaveSlotItem4=Slot 3
+SaveSlotItem5=Slot 4
+SaveSlotItem6=Slot 5
+SaveSlotItem7=Slot 6
+SaveSlotItem8=Slot 7
+SaveSlotItem9=Slot 8
+SaveSlotItem10=Slot 9
+SaveSlotItem11=Slot 10
+
+// options menu
+MenuTitle3=&Options
+OptionsItem1=&Full Screen
+MenuDes18=Full Screen
+OptionsItem2=Configure Graphics Plugin...
+MenuDes19=Configure Graphics Plugin...
+OptionsItem3=Configure RSP Plugin...
+MenuDes20=Configure RSP Plugin...
+OptionsItem4=Configure Audio Plugin...
+MenuDes21=Configure Audio Plugin...
+OptionsItem5=Configure Controller Plugin...
+MenuDes22=Configure Controller Plugin...
+OptionsItem6=Gameshark codes (Cheats)
+MenuDes24=Gameshark codes (Cheats)
+OptionsItem7=&Settings...
+MenuDes25=Settings...
+OptionsItem9=Show CPU Usage %
+MenuDes23=Show CPU Usage %
+
+// language menu
+MenuTitle5=Language
+
+// help menu
+MenuTitle4=&Help
+HelpItem2=&Contents...
+HelpItem3=&Index...
+HelpItem4=About PJ64KSE
+MenuDes10=About PJ64KSE
+
+// settings plugins tab
+SettingsTab1=Plugins
+PluginType1=Reality Signal Processor
+PluginType2=Graphics
+PluginType3=Audio
+PluginType4=Controller
+AboutButton=About
+
+// settings directories tab
+SettingsTab2=Directories
+StoreDirName1=Plugin Directory
+StoreDirName2=Rom Directory
+StoreDirName3=N64 Auto saves
+StoreDirName4=Instant saves
+StoreDirName5=Screen Shots
+DefaultRomDir=Last folder that a rom was open from.
+
+// settings rom selection tab
+SettingsTab5=Rom Selection
+RomBrowserField1=File Name
+RomBrowserField10=Manufacturer
+RomBrowserField11=Country
+RomBrowserField12=Developer
+RomBrowserField13=CRC1
+RomBrowserField14=CRC2
+RomBrowserField15=CIC Chip
+RomBrowserField16=Release Date
+RomBrowserField17=Genre
+RomBrowserField18=Players
+RomBrowserField2=Internal Name
+RomBrowserField3=Good Name
+RomBrowserField4=Status
+RomBrowserField5=Rom Size
+RomBrowserField6=Notes (Core)
+RomBrowserField7=Notes (Default Plugins)
+RomBrowserField8=Notes (User)
+RomBrowserField9=Cartridge ID
+RomSelText1=Max # of Roms Remembered (Max 10):
+RomSelText2=Roms
+RomSelText3=Max # of Rom Dirs Remembered (Max 10):
+RomSelText4=Dirs
+RomSelText5=Use Rom Browser
+RomSelText6=Use Directory recursion
+RomSelText7=Available fields
+RomSelText8=Show fields in this order:
+RomSelText9=Add ->
+RomSelText10=<- Remove
+RomSelText11=Up
+RomSelText12=Down
+
+// settings options tab
+SettingsTab3=Options
+OptionsText1=Most of these changes will not take effect till a new rom is opened or current rom is reset.
+OptionsText2=Start Emulation when rom is opened?
+OptionsText3=Pause emulation when window is not active?
+OptionsText5=Always overwrite default settings with ones from ini?
+OptionsText6=CPU core style:
+OptionsText7=Self-mod code method:
+OptionsText8=Default Memory Size:
+OptionsText12=Automatically compress instant saves
+OptionsText13=On loading a ROM go to full screen
+OptionsText14=Advanced Block Linking:
+
+// settings rom settings tab
+SettingsTab4=Rom Settings
+RomOptionsText1=Memory Size:
+RomOptionsText2=Deafult Save type:
+RomOptionsText3=CPU core style:
+RomOptionsText4=Self-modifying code Method:
+RomOptionsText6=Use TLB
+RomOptionsText7=Counter Factor:
+RomOptionsText8=Advanced Block Linking:
+RomOptionsText9=Large Compile Buffer
+RomOptionsText10=Register caching
+CounterFactor1=Default
+
+// settings shell integration tab
+SettingsTab6=Shell Integration
+ShellIntegration1=File extension association:
+
+// settings generic
+AdvBlokLink1=Global Setting
+AdvBlokLink2=On
+AdvBlokLink3=Off
+CPUType1=Default
+CPUType2=Interpreter
+CPUType3=Recompiler
+RDRAMSize1=Default
+RDRAMSize2=4 MB
+RDRAMSize3=8 MB
+SaveType1=Use First Used Save Type
+SaveType2=4kbit Eeprom
+SaveType3=16kbit Eeprom
+SaveType4=32kbytes SRAM
+SaveType5=Flashram
+SelfModMethod1=Default
+SelfModMethod2=None
+SelfModMethod3=Cache
+SelfModMethod4=Protect Memory
+SelfModMethod6=Check Memory & Cache
+SelfModMethod7=Change Memory & cache

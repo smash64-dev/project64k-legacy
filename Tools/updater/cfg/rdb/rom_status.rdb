@@ -1,0 +1,83 @@
+// Setting up ROM browser status categories & colour definitions:
+//
+// colours are standard 6-digit hex values [RRGGBB] 000000 - black, FFFFFF - white
+// you can use e.g. Photoshop to get these colour codes from any source
+// 	 equals-sign defines normal text colour (ROMs not highlighted)
+// 	.Sel defines background colour of highlighted row
+//	.Seltext defines highlighted text colour
+// ".AutoFullScreen=False" can be used to overide users' auto fullscreen on load option
+// there is no practical limit to the number of categories you may define
+// categories will be used to populate a drop-down menu in the Project64 GUI, ROM Notes tab
+// To edit colours you must edit this file directly.
+// To translate the RDB, edit each category group below, then do a Find>Replace on "Status" lines
+// Core Notes and Plugin Notes would have to be manually translated of course.
+
+[Rom Status]
+Compatible=006600
+Compatible.Sel=006600
+Compatible.Seltext=FFFFFF
+Issues (mixed)=827B00
+Issues (mixed).Sel=827B00
+Issues (mixed).Seltext=FFFFFF
+Issues (core)=827B00
+Issues (core).Sel=827B00
+Issues (core).Seltext=FFFFFF
+Issues (plugin)=827B00
+Issues (plugin).Sel=827B00
+Issues (plugin).Seltext=FFFFFF
+Unsupported=990000
+Unsupported.Sel=990000
+Unsupported.Seltext=FFFFFF
+Unsupported.AutoFullScreen=False
+Only intro/part OK=A66023
+Only intro/part OK.Sel=A66023
+Only intro/part OK.Seltext=FFFFFF
+Only intro/part OK.AutoFullScreen=False
+Needs video plugin=00897C
+Needs video plugin.Sel=00897C
+Needs video plugin.Seltext=FFFFFF
+Needs audio plugin=00897C
+Needs audio plugin.Sel=00897C
+Needs audio plugin.Seltext=FFFFFF
+Needs input plugin=00897C
+Needs input plugin.Sel=00897C
+Needs input plugin.Seltext=FFFFFF
+Needs RSP plugin=00897C
+Needs RSP plugin.Sel=00897C
+Needs RSP plugin.Seltext=FFFFFF
+Region issue (plugin)=000099
+Region issue (plugin).Sel=000099
+Region issue (plugin).Seltext=FFFFFF
+Region issue (core)=000099
+Region issue (core).Sel=000099
+Region issue (core).Seltext=FFFFFF
+Region issue (c & p)=000099
+Region issue (c & p).Sel=000099
+Region issue (c & p).Seltext=FFFFFF
+Broken (core)=603913
+Broken (core).Sel=603913
+Broken (core).Seltext=FFFFFF
+Broken (core).AutoFullScreen=False
+Broken (plugin)=603913
+Broken (plugin).Sel=603913
+Broken (plugin).Seltext=FFFFFF
+Broken (c & p)=603913
+Broken (c & p).Sel=603913
+Broken (c & p).Seltext=FFFFFF
+Uncertain=000000
+Uncertain.Sel=000000
+Uncertain.Seltext=FFFFFF
+Unknown=444444
+Unknown.Sel=000000
+Unknown.Seltext=FFFFFF
+Bad ROM?=000000
+Bad ROM?.Sel=000000
+Bad ROM?.Seltext=FFFFFF
+Bad ROM?.AutoFullScreen=False
+
+// various colours, currently unused:
+// 630460 purple
+// BF6E29 orange
+// 603913 brown
+// 834200 dark orange
+// A66023
