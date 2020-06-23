@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.9.7] - 2020-06-23
+
+### Fixed
+
+- Project64KillerOP v4
+
 ## [0.9.6] - 2020-06-23
 
 ### Added
