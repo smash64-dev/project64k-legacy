@@ -4,7 +4,7 @@
 
 ### Fixed
 
-- Project64KillerOP v4
+- Project64KillerOP v4 compatibility
 
 ## [0.9.6] - 2020-06-23
 
