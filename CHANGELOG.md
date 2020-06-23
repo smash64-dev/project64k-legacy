@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.6] - 2020-06-23
+
+### Added
+
+- SmashRemix 0.9.3c
+- Project64KillerOP v4
+- Full support for all Project64 and Kaillera configs
+- Extra cheats archives from other builds
+
+### Changed
+
+- Config generation backend
+
+### Fixed
+
+- Updater compatibility with older builds
+
 ## [0.9.5] - 2020-04-29
 
 ### Added
