@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.9.8] - 2020-06-24
+
+### Changed
+
+- Cheats for vanilla U and 19XX NE
+
 ## [0.9.7] - 2020-06-23
 
 ### Fixed
