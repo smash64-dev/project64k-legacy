@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0] - 2020-07-09
+
+### Changed
+
+- Azimer's audio plugin uses better default Buffer Size (2nd tick)
+
 ## [1.0.0] - 2020-07-08
 
 ### Initial Stable Release
