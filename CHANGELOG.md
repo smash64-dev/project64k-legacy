@@ -19,3 +19,4 @@
 - Split GLideN64 configs into separate files
 
 [1.0.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.0.0
+[1.1.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.1.0
