@@ -17,6 +17,11 @@ Plugin/controller.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/defaults/AudioHLE.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/defaults/GLideN64_40.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/defaults/NRage_Input_V2_23c.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/extra/AudioHLE_2nd_Tick.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/extra/AudioHLE_3rd_Tick.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/extra/AudioHLE_4th_Tick.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/extra/AudioHLE_5th_Tick.dll filter=lfs diff=lfs merge=lfs -text
+Plugin/extra/AudioHLE_Original.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/GLideN64_20.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/graphics.dll filter=lfs diff=lfs merge=lfs -text
 Plugin/Jabo_Direct3D8.dll filter=lfs diff=lfs merge=lfs -text
