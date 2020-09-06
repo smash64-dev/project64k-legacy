@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] - 2020-09-06
+
+### Added
+
+- SmashRemix 0.9.4 to RDB
+
 ## [1.1.1] - 2020-07-11
 
 ### Changed
@@ -27,3 +33,4 @@
 [1.0.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.0.0
 [1.1.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.1.0
 [1.1.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.1.1
+[1.2.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.2.0
