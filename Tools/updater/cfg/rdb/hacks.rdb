@@ -219,3 +219,14 @@ Use TLB=No
 RDRAM Size=8
 ViRefresh=2200
 
+[B9B5831B-7F3DEBAF-C:45]
+Good Name=SmashRemix0.9.5
+Internal Name=SmashRemix
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0] - 2020-09-06
+
+### Added
+
+- SmashRemix 0.9.5 to RDB
+
 ## [1.2.0] - 2020-09-06
 
 ### Added
