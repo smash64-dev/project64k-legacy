@@ -15056,3 +15056,15 @@ SMM-FUNC=0
 SMM-TLB=0
 Status=Compatible
 ViRefresh=2200
+
+[B9CDC5C3-0D2F4668-C:45]
+Counter Factor=1
+Culling=1
+Good Name=SmashRemix0.9.5b
+Internal Name=SmashRemix
+RDRAM Size=8
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Status=Compatible
+ViRefresh=2200
