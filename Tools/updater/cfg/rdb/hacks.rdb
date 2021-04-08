@@ -242,3 +242,15 @@ SMM-FUNC=0
 SMM-TLB=0
 RDRAM Size=8
 ViRefresh=2200
+
+[4FC5F93D-1B547414-C:45]
+Good Name=Tent FD V0.2
+Internal Name=TentFD
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
