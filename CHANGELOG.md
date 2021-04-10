@@ -5,6 +5,7 @@
 ### Added
 
 - Added TentFD to RDB
+- Spanish translation, courtesy of YoshiFanGM
 - Curated servers list for Smash64 community -- hosted on `smash64.online`
   - Shows region, server owner, and extra notes
   - Server list is static, so game and user count is not possible
