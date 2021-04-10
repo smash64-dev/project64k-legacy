@@ -1,0 +1,188 @@
+// spanish.lng
+
+[Espanol (Spanish)]
+Author=YoshiFanGM
+Version=1.0
+Date=2021/04/08
+
+// file menu
+MenuTitle1=&Archivo
+FileItem1=Abrir &Rom
+MenuDes1=Abre un archivo ROM
+FileItem2=&Informacion del Rom
+MenuDes2=Muestra la informacion del ROM
+FileItem3=&Comenzar la emulacion
+MenuDes3=Empieza la emulacion del ROM
+FileItem4=&Finalizar emulacion
+MenuDes4=Termina la emulacion actual
+FileItem5=Jugar online (&Netplay)...
+FileItem6=Elegir el directorio de Roms...
+MenuDes26=Selecciona el directorio de Roms predeterminado
+FileItem7=Actualizar la lista de Roms
+MenuDes13=Actualiza (refresca) la lista de Roms en el emulador
+FileItem8=Roms recientes
+MenuDes11=Muestra una lista con los ultimos Roms emulados
+FileItem9=Directorios de Roms recientes
+MenuDes14=Directorios de Roms recientes
+
+// system menu
+MenuTitle2=&Sistema
+SystemItem1=&Reiniciar
+MenuDes6=Reiniciar
+SystemItem2=&Pausar
+MenuDes7=Pausar o resumir el juego
+SystemItem3=Generar una captura (bitmap)
+MenuDes15=Genera una captura del juego en un bitmap
+SystemItem4=&Guardar
+MenuDes8=Guarda el estado (savestate) actual del ROM
+SystemItem5=&Cargar
+MenuDes9=Restaura el estado (savestate) previamente guardado
+SystemItem6=Estado actual
+SystemItem7=Guardar c&omo....
+MenuDes17=Guarda el estado (savestate) a un directorio
+SystemItem8=Cargar estado....
+MenuDes12=Carga un savestate desde un directorio
+SystemItem9=Limitar FPS
+MenuDes16=Limita los FPS en el juego
+SaveSlotItem1=Predeterminado
+SaveSlotItem2=Espacio 1
+SaveSlotItem3=Espacio 2
+SaveSlotItem4=Espacio 3
+SaveSlotItem5=Espacio 4
+SaveSlotItem6=Espacio 5
+SaveSlotItem7=Espacio 6
+SaveSlotItem8=Espacio 7
+SaveSlotItem9=Espacio 8
+SaveSlotItem10=Espacio 9
+SaveSlotItem11=Espacio 10
+
+// options menu
+MenuTitle3=&Opciones
+OptionsItem1=&Pantalla completa
+MenuDes18=Cambiar a Pantalla completa
+OptionsItem2=Configurar plugin de Graficos...
+MenuDes19=Configurar el plugin de graficos (vi­deo) actual
+OptionsItem3=Configurar plugin RSP...
+MenuDes20=Configurar el plugin de RSP
+OptionsItem4=Configurar plugin de Audio...
+MenuDes21=Configurar el plugin de Audio actual
+OptionsItem5=Configurar plugin de Control...
+MenuDes22=Configurar el plugin de control actual
+OptionsItem6=Codigos Gameshark
+MenuDes24=Muestra los codigos Gameshark del juego actual (trampas o cheats)
+OptionsItem7=&Ajustes...
+MenuDes25=Cambiar los ajustes del emulador
+OptionsItem9=Mostrar el uso del CPU %
+MenuDes23=Mostrar el uso del CPU %
+
+// language menu
+MenuTitle5=Idioma
+
+// help menu
+MenuTitle4=A&yuda
+HelpItem2=&Contenido...
+HelpItem3=ind&ice...
+HelpItem4=Acerca de PJ64KSE
+MenuDes10=Muestra la informacion de PJ64KSE
+
+// settings plugins tab
+SettingsTab1=Plugins
+PluginType1=Reality Signal Processor (RSP)
+PluginType2=Graficos
+PluginType3=Audio
+PluginType4=Control
+AboutButton=Acerca de...
+
+// settings directories tab
+SettingsTab2=Directorios
+StoreDirName1=Directorio de plugins
+StoreDirName2=Directorio de Roms
+StoreDirName3=Auto-guardado de los juegos (N64)
+StoreDirName4=Estados (savestates)
+StoreDirName5=Capturas
+DefaultRomDir=Usar el ultimo directorio de donde se abrio un ROM.
+
+// settings rom selection tab
+SettingsTab5=Seleccion de ROM
+RomBrowserField1=Nombre de archivo
+RomBrowserField10=Fabricante
+RomBrowserField11=Pais
+RomBrowserField12=Desarrollador
+RomBrowserField13=CRC1
+RomBrowserField14=CRC2
+RomBrowserField15=Chip CIC
+RomBrowserField16=Lanzamiento
+RomBrowserField17=Genero
+RomBrowserField18=jugadores
+RomBrowserField2=Nombre interno
+RomBrowserField3=Nombre Bueno
+RomBrowserField4=Estado
+RomBrowserField5=Tamano
+RomBrowserField6=Notas (Core)
+RomBrowserField7=Notas (plugins predet.)
+RomBrowserField8=Notas (Usuario)
+RomBrowserField9=ID del cartucho
+RomSelText1=Roms recordados (10 maximo):
+RomSelText2=roms
+RomSelText3=Directorios recordados (10 maximo):
+RomSelText4=dirs
+RomSelText5=Usar lista de ROMs
+RomSelText6=Recursion de directorios
+RomSelText7=Campos disponibles
+RomSelText8=Campos mostrados:
+RomSelText9=Agregar ->
+RomSelText10=<- Quitar
+RomSelText11=Arriba
+RomSelText12=Abajo
+
+// settings options tab
+SettingsTab3=Opciones
+OptionsText1=Los cambios en este apartado no tendran efecto hasta que se cargue un ROM nuevo o se reinicie el actual.
+OptionsText2=Comenzar la emulacion cuando se abre un ROM?
+OptionsText3=Pausar la emulacion cuando la ventana no esta activa?
+OptionsText5=Sobreescribir ajustes predeterminados con los del .ini?
+OptionsText6=Modo de CPU:
+OptionsText7=Modo de automodificacion:
+OptionsText8=Tamano de memoria:
+OptionsText12=Comprimir los estados automaticamente
+OptionsText13=Ir a pantalla completa al cargar un ROM
+OptionsText14=Advanced Block Linking:
+
+// settings rom settings tab
+SettingsTab4=Ajustes del ROM
+RomOptionsText1=Tamano de memoria:
+RomOptionsText2=Tipo de guardado:
+RomOptionsText3=Modo de CPU:
+RomOptionsText4=Modo de automodificacion:
+RomOptionsText6=Usar TLB
+RomOptionsText7=Counter Factor:
+RomOptionsText8=Advanced Block Linking:
+RomOptionsText9=Usar bufer grande
+RomOptionsText10=Registrar cache
+CounterFactor1=Predeterminado
+
+// settings shell integration tab
+SettingsTab6=Asociacion de archivos
+ShellIntegration1=Archivos asociados:
+
+// settings generic
+AdvBlokLink1=Ajuste global
+AdvBlokLink2=Usar
+AdvBlokLink3=No usar
+CPUType1=Predeterminado
+CPUType2=Interprete
+CPUType3=Recompilar
+RDRAMSize1=Predeterminado
+RDRAMSize2=4 MB
+RDRAMSize3=8 MB
+SaveType1=Usar el primer tipo de guardado usado
+SaveType2=4kbit Eeprom
+SaveType3=16kbit Eeprom
+SaveType4=32kbytes SRAM
+SaveType5=Flashram
+SelfModMethod1=Predeterminado
+SelfModMethod2=Ninguno
+SelfModMethod3=En cache
+SelfModMethod4=Proteger la memoria
+SelfModMethod6=Checar memoria y cache
+SelfModMethod7=Cambiar memoria y cache
