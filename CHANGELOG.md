@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.0] - 2021-05-10
+
+### Added
+
+- SmashRemix 0.9.7 to RDB
+
 ## [1.7.1] - 2021-04-10
 
 ### Added
@@ -72,3 +78,4 @@
 [1.3.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.3.0
 [1.4.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.4.0
 [1.7.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.7.1
+[1.8.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.8.0

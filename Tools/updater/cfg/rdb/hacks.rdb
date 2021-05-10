@@ -243,6 +243,18 @@ SMM-TLB=0
 RDRAM Size=8
 ViRefresh=2200
 
+[9D2B9C7F-6D90A8EF-C:45]
+Good Name=SmashRemix0.9.7
+Internal Name=SmashRemix
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
+
 [4FC5F93D-1B547414-C:45]
 Good Name=Tent FD V0.2
 Internal Name=TentFD
