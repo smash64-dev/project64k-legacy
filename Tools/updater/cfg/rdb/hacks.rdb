@@ -141,6 +141,18 @@ Use TLB=No
 RDRAM Size=8
 ViRefresh=2200
 
+[5F3BCDEB-E354123C-C:45]
+Good Name=Slippy v1.0
+Internal Name=SLIPPY TOAD
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
+
 [DEB992B2-55FC9187-C:45]
 Good Name=SmashRemix0.9
 Internal Name=SmashRemix0.9
