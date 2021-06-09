@@ -15092,3 +15092,15 @@ SMM-FUNC=0
 SMM-TLB=0
 Status=Compatible
 ViRefresh=2200
+
+[5F3BCDEB-E354123C-C:45]
+Counter Factor=1
+Culling=1
+Good Name=Slippy v1.0
+Internal Name=SLIPPY TOAD
+RDRAM Size=8
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Status=Compatible
+ViRefresh=2200
