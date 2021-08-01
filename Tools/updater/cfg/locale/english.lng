@@ -2,8 +2,8 @@
 
 [English]
 Author=CEnnis91
-Version=1.0
-Date=2020/05/25
+Version=2.0
+Date=2021/08/01
 
 // file menu
 MenuTitle1=&File
@@ -24,6 +24,8 @@ FileItem8=Recent Rom
 MenuDes11=Recent Rom
 FileItem9=Recent Rom Directories
 MenuDes14=Recent Rom Directories
+FileItem10=&Update Emulator...
+FileItem11=Open &Tools...
 
 // system menu
 MenuTitle2=&System
@@ -80,6 +82,7 @@ MenuTitle5=Language
 
 // help menu
 MenuTitle4=&Help
+HelpItem1=
 HelpItem2=&Contents...
 HelpItem3=&Index...
 HelpItem4=About PJ64KSE
@@ -186,3 +189,8 @@ SelfModMethod3=Cache
 SelfModMethod4=Protect Memory
 SelfModMethod6=Check Memory & Cache
 SelfModMethod7=Change Memory & cache
+
+// tools dialog
+Tools1=
+Tools2=
+Tools3=

@@ -1,0 +1,197 @@
+// german.lng
+
+[German (Deutsche)]
+Author=u9verse
+Version=2.0
+Date=2021/06/15
+
+[Template]
+// file menu
+MenuTitle1=&Datei
+FileItem1=R&om offnen
+MenuDes1=R&om offnen
+FileItem2=Rom &Informationen....
+MenuDes2=Rom Informationen....
+FileItem3=&Starte Emulation
+MenuDes3=Starte Emulation
+FileItem4=B&eende Emulation
+MenuDes4=B&eende Emulation
+FileItem5=O&nlinespiel starten...
+FileItem6=Wahle Romverzei&chnis...
+MenuDes26=Wahle Romverzeichnis...
+FileItem7=Aktualisiere Romliste
+MenuDes13=Aktualisiere Romliste
+FileItem8=KUrzlich verwendete Roms
+MenuDes11=KUrzlich verwendete Roms
+FileItem9=KUrzlich verwendete Romverzeichnisse
+MenuDes14=KUrzlich verwendete Romverzeichnisse
+FileItem10=Emulator aktualisieren...
+FileItem11=Werkzeuge offnen...
+
+// system menu
+MenuTitle2=&System
+SystemItem1=Zu&rucksetzen
+MenuDes6=Zurucksetzen
+SystemItem2=&Pause
+MenuDes7=Pause/Fortsetzen
+SystemItem3=Bitmap generieren
+MenuDes15=Bitmap generieren
+SystemItem4=&Speichern
+MenuDes8=Speichern
+SystemItem5=&Wiede&rherstellen
+MenuDes9=Wiederherstellen
+SystemItem6=Aktueller &Speicherstand
+SystemItem7=Speichern als....
+MenuDes17=Speichern als....
+SystemItem8=Lade....
+MenuDes12=Lade....
+SystemItem9=FPS begrenzen
+MenuDes16=FPS begrenzen
+SaveSlotItem1=Standard
+SaveSlotItem2=Slot 1
+SaveSlotItem3=Slot 2
+SaveSlotItem4=Slot 3
+SaveSlotItem5=Slot 4
+SaveSlotItem6=Slot 5
+SaveSlotItem7=Slot 6
+SaveSlotItem8=Slot 7
+SaveSlotItem9=Slot 8
+SaveSlotItem10=Slot 9
+SaveSlotItem11=Slot 10
+
+// options menu
+MenuTitle3=&Optionen
+OptionsItem1=&Vollbild
+MenuDes18=Vollbild
+OptionsItem2=Konfiguriere Grafik-Plugin...
+MenuDes19=Konfiguriere Grafik-Plugin...
+OptionsItem3=Konfiguriere RSP-Plugin...
+MenuDes20=Konfiguriere RSP-Plugin...
+OptionsItem4=Konfiguriere Audio-Plugin...
+MenuDes21=Konfiguriere Audio-Plugin...
+OptionsItem5=Konfiguriere Controller-Plugin...
+MenuDes22=Konfiguriere Controller-Plugin...
+OptionsItem6=Gameshark-Codes (Cheats)
+MenuDes24=Gameshark-Codes (Cheats)
+OptionsItem7=Ein&stellungen...
+MenuDes25=Einstellungen...
+OptionsItem9=CPU-Auslastung anzeigen %
+MenuDes23=CPU-Auslastung anzeigen %
+
+// language menu
+MenuTitle5=Sprache
+
+// help menu
+MenuTitle4=&Hilfe
+HelpItem1=
+HelpItem2=Inha&lte...
+HelpItem3=&Index...
+HelpItem4=Uber PJ64KSE
+MenuDes10=Uber PJ64KSE
+
+// settings plugins tab
+SettingsTab1=Plugins
+PluginType1=Realitatssignalprozessor
+PluginType2=Grafik
+PluginType3=Audio
+PluginType4=Controller
+AboutButton=Uber
+
+// settings directories tab
+SettingsTab2=Verzeichnisse
+StoreDirName1=Plugin-Verzeichnis
+StoreDirName2=Rom-Verzeichnis
+StoreDirName3=Automatische N64 Speicherstande
+StoreDirName4=Schnelles Speichern
+StoreDirName5=Screenshots
+DefaultRomDir=Letzter Ordner aus dem eine Rom geoffnet wurde.
+
+// settings rom selection tab
+SettingsTab5=Rom-Auswahl
+RomBrowserField1=Dateiname
+RomBrowserField10=Hersteller
+RomBrowserField11=Land
+RomBrowserField12=Entwickler
+RomBrowserField13=CRC1
+RomBrowserField14=CRC2
+RomBrowserField15=CIC Chip
+RomBrowserField16=Veroffentlichungsdatum
+RomBrowserField17=Genre
+RomBrowserField18=Spieler
+RomBrowserField2=Interner Name
+RomBrowserField3=Guter Name
+RomBrowserField4=Status
+RomBrowserField5=Romgrobe
+RomBrowserField6=Notizen (Basis)
+RomBrowserField7=Notizen (Standard-Plugins)
+RomBrowserField8=Notizen (Benutzer)
+RomBrowserField9=Kartuschen-ID
+RomSelText1=Maximale # an Roms, an die sich erinnert wird (Max 10):
+RomSelText2=Roms
+RomSelText3=Maximale # an Romverzeichnissen, an die sich erinnert wird (Max 10):
+RomSelText4=Verzeichnisse
+RomSelText5=Verwende Rom-Browser
+RomSelText6=Verwende Verzeichnisrekursion
+RomSelText7=Verfugbare Felder
+RomSelText8=Zeige Felder in dieser Reihenfolge:
+RomSelText9=Hinzufugen ->
+RomSelText10=<- Loschen
+RomSelText11=Hoch
+RomSelText12=Runter
+
+// settings options tab
+SettingsTab3=Optionen
+OptionsText1=Die meisten Veranderungen werden erst durch das offnen einer neuen Rom oder das zurucksetzen der aktuellen Rom wirksam.
+OptionsText2=Starte Emulation, wenn die Rom geoffnet wird?
+OptionsText3=Pausiere die Emulation, wenn das Fenster nicht aktiv genutzt wird?
+OptionsText5=Immer die Standardeinstellungen mit denen aus der ini Uberschreiben?
+OptionsText6=CPU-Kern-Typ:
+OptionsText7=Selbstmodifizierende Code-Methode:
+OptionsText8=Standardspeichergrobe:
+OptionsText12=Automatisch Schnellspeicherstande komprimieren
+OptionsText13=Beim Laden einer Rom Vollbild starten
+OptionsText14=Fortgeschrittene Blockverknupfung:
+
+// settings rom settings tab
+SettingsTab4=Rom Einstellungen
+RomOptionsText1=Speichergrobe:
+RomOptionsText2=Standardspeichertyp:
+RomOptionsText3=CPU-Kern-Typ:
+RomOptionsText4=Selbstmodifizierende Code-Methode:
+RomOptionsText6=Verwende TLB
+RomOptionsText7=Gegenfaktor:
+RomOptionsText8=Fortgeschrittene Blockverknupfung:
+RomOptionsText9=Grober Kompilierpuffer
+RomOptionsText10=Zwischenspeichern registrieren
+CounterFactor1=Standard
+
+// settings shell integration tab
+SettingsTab6=Shell-Integration
+ShellIntegration1=Dateierweiterungszuordnung:
+
+// settings generic
+AdvBlokLink1=Globale Einstellungen
+AdvBlokLink2=An
+AdvBlokLink3=Aus
+CPUType1=Standard
+CPUType2=Interpreter
+CPUType3=Neukompilierer
+RDRAMSize1=Standard
+RDRAMSize2=4 MB
+RDRAMSize3=8 MB
+SaveType1=Verwende zuerst verwendeten Speichertyp
+SaveType2=4kbit Eeprom
+SaveType3=16kbit Eeprom
+SaveType4=32kbytes SRAM
+SaveType5=Flash-Speicher
+SelfModMethod1=Standard
+SelfModMethod2=Keine
+SelfModMethod3=Zwischenspeicher
+SelfModMethod4=Speicher schutzen
+SelfModMethod6=Speicher & Cache prufen
+SelfModMethod7=Speicher & Cache andern
+
+// tools dialog
+Tools1=
+Tools2=
+Tools3=
