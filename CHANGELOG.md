@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.9.0] - 2021-06-08
+
+### Added
+
+- Slippy mod for SmashRemix 0.9.7 to RDB
+
+### Changed
+
+- Small change to Raphnetraw plugin to help new players
+
 ## [1.8.0] - 2021-05-10
 
 ### Added
@@ -79,3 +89,4 @@
 [1.4.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.4.0
 [1.7.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.7.1
 [1.8.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.8.0
+[1.9.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.9.0
