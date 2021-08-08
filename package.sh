@@ -2,77 +2,15 @@
 # package.sh - create a git archive ready for release
 # this should work with linux and git bash in Windows
 
-# function from https://github.com/kvz/bash3boilerplate/blob/master/src/ini_val.sh
-#
-# The MIT License (MIT)
-# Copyright (c) 2013 Kevin van Zonneveld and contributors
-# You are not obligated to bundle the LICENSE file with your b3bp projects as long
-# as you leave these references intact in the header comments of your source files.
-function ini_val() {
-	local file="${1:-}"
-	local sectionkey="${2:-}"
-	local val="${3:-}"
-	local comment="${4:-}"
+function ini_set() {
+	local file="$1"
+	local section="$2"
+	local key="$3"
+	local value="$4"
+
 	local delim="="
-	local comment_delim=";"
-	local section=""
-	local key=""
-	local current=""
-	# add default section
-	local section_default="default"
-
-	if [[ ! -f "${file}" ]]; then
-		# touch file if not exists
-		touch "${file}"
-	fi
-
-	# Split on . for section. However, section is optional
-	IFS='.' read -r section key <<< "${sectionkey}"
-	if [[ ! "${key}" ]]; then
-		key="${section}"
-		# default section if not given
-		section="${section_default}"
-	fi
-
-	current=$(sed -En "/^\[/{h;d;};G;s/^${key}([[:blank:]]*)${delim}(.*)\n\[${section}\]$/\2/p" "${file}"|awk '{$1=$1};1')
-
-	if ! grep -q "\[${section}\]" "${file}"; then
-		# create section if not exists (empty line to seperate new section)
-		echo	>> "${file}"
-		echo "[${section}]" >> "${file}"
-	fi
-
-	if [[ ! "${val}" ]]; then
-		# get a value
-		echo "${current}"
-	else
-		# set a value
-		if [[ ! "${current}" ]]; then
-			# doesn't exist yet, add
-			if [[ ! "${section}" ]]; then
-				# if no section is given, propagate the default section
-				section=${section_default}
-			fi
-			# add to section
-			if [[ ! "${comment}" ]]; then
-				# add new key/value without comment
-				RET="/\\[${section}\\]/a\\
-${key}${delim}${val}"
-			else
-				# add new key/value with preceeding comment
-				RET="/\\[${section}\\]/a\\
-${comment_delim}[${key}] ${comment}\\
-${key}${delim}${val}"
-			fi
-			sed -i.bak -e "${RET}" "${file}"
-			# this .bak dance is done for BSD/GNU portability: http://stackoverflow.com/a/22084103/151666
-			rm -f "${file}.bak"
-		else
-			# replace existing (modified to replace only keys in given section)
-			sed -i.bak -e "/^\[${section}\]/,/^\[.*\]/ s|^\(${key}[ \t]*${delim}[ \t]*\).*$|\1${val}|" "${file}"
-			# this .bak dance is done for BSD/GNU portability: http://stackoverflow.com/a/22084103/151666
-			rm -f "${file}.bak"
-		fi
+	if [[ -e "$file" ]]; then
+		sed -i "/\[${section}]/,/\[/ s|^\(${key}.*${delim}\).*$|\1${value}|" "$file"
 	fi
 }
 
@@ -104,7 +42,7 @@ function update_fields() {
 	local value=''
 
 	# define the package version and date strings
-	local version_entries=(
+	local fields=(
 		"Cfg/tools.cfg|Meta|Date|${date}"
 		"Cfg/tools.cfg|Meta|Version|${version#v}"
 		"Tools/updater.cfg|Package|Version|${version#v}"
@@ -113,28 +51,28 @@ function update_fields() {
 	)
 
 	# append entires for all relevant lng files
-	local locale_files=''
-	locale_files="$(find . -name "*.lng" | grep -v "template.lng\|locale.lng")"
+	local locales=''
+	locales="$(find . -name "*.lng" | grep -v "template.lng\|locale.lng")"
 	value="Version: ${version#v} (${date})"
 
-	for file in $locale_files; do
+	for file in $locales; do
 		section="$(grep -o "^\[[^=]\+\]" "$file" | tr -d '[]')"
-		version_entries[${#version_entries[@]}]="${file}|${section}|Tools1|${value}"
+		fields[${#fields[@]}]="${file}|${section}|Tools1|${value}"
 	done
 
 	# change version strings in various ini files
 	echo "- Updating config files to contain the correct version"
-	for entry in "${version_entries[@]}"; do
-		file="$(echo "$entry" | awk -F'|' '{print $1}')"
-		section="$(echo "$entry" | awk -F'|' '{print $2}')"
-		key="$(echo "$entry" | awk -F'|' '{print $3}')"
-		value="$(echo "$entry" | awk -F'|' '{print $4}')"
+	for field in "${fields[@]}"; do
+		file="$(echo "$field" | awk -F'|' '{print $1}')"
+		section="$(echo "$field" | awk -F'|' '{print $2}')"
+		key="$(echo "$field" | awk -F'|' '{print $3}')"
+		value="$(echo "$field" | awk -F'|' '{print $4}')"
 
-		ini_val "$file" "${section}.${key}" "${value}"
+		ini_set "$file" "$section" "$key" "$value"
 	done
 
 	# clear update history from user.cfg
-	sed '1,/\[Update_History\]/!d' "Tools/user.cfg"
+	sed -i '1,/\[Update_History\]/!d' "Tools/user.cfg"
 }
 
 function update_self() {
@@ -160,7 +98,8 @@ cd "$SELF_DIR" || exit
 
 # this regex is not the recommeneded regex for semver, but it will work well enough for basic
 # https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string
-VALID_VERSION='^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*).*$'
+# also related https://unix.stackexchange.com/a/398160
+VALID_VERSION='^v?(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*).*$'
 INPUT_VERSION="$1"
 
 while [[ ! "$INPUT_VERSION" =~ $VALID_VERSION ]]; do
