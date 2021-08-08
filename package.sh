@@ -18,8 +18,10 @@ function package_release() {
 	local release_dir="$1"
 	local release_name="$2"
 
-	echo "- Creating git archive and moving files to $(basename "$release_dir")"
-	git archive --format=zip --output="${release_dir}/${release_name}" HEAD
+	echo "- Creating git archive and moving files to $(basename "${release_dir}")"
+	local release_stash=''
+	release_stash="$(git stash create 2>/dev/null)"
+	git archive --format=zip --output="${release_dir}/${release_name}" "${release_stash:-HEAD}"
 
 	local files=(
 		'CHANGELOG.md'
@@ -35,17 +37,24 @@ function package_release() {
 function update_fields() {
 	local version="$1"
 	local date="$2"
+	local owner="$3"
 
 	local file=''
 	local section=''
 	local key=''
 	local value=''
 
+	local build_id='0'
+	build_id="$(echo -n "${version} ${date} ${owner}" | sha1sum | awk '{print $1}')"
+
 	# define the package version and date strings
 	local fields=(
+		"Cfg/tools.cfg|Meta|Author|${owner}"
 		"Cfg/tools.cfg|Meta|Date|${date}"
 		"Cfg/tools.cfg|Meta|Version|${version#v}"
+		"Tools/updater.cfg|Package|BuildId|${build_id}"
 		"Tools/updater.cfg|Package|Version|${version#v}"
+		"Tools/updater/cfg/base/tools.cfg|Meta|Author|${owner}"
 		"Tools/updater/cfg/base/tools.cfg|Meta|Date|${date}"
 		"Tools/updater/cfg/base/tools.cfg|Meta|Version|${version#v}"
 	)
@@ -53,11 +62,11 @@ function update_fields() {
 	# append entires for all relevant lng files
 	local locales=''
 	locales="$(find . -name "*.lng" | grep -v "template.lng\|locale.lng")"
-	value="Version: ${version#v} (${date})"
 
 	for file in $locales; do
 		section="$(grep -o "^\[[^=]\+\]" "$file" | tr -d '[]')"
-		fields[${#fields[@]}]="${file}|${section}|Tools1|${value}"
+		fields[${#fields[@]}]="${file}|${section}|Tools1|Version: ${version#v} (${date})"
+		fields[${#fields[@]}]="${file}|${section}|Tools2|Author: ${owner}"
 	done
 
 	# change version strings in various ini files
@@ -89,6 +98,7 @@ function update_self() {
 # entry point
 SELF_DIR="$(git rev-parse --show-toplevel)"
 SELF_NAME="$(basename -s .git "$(git config --get remote.origin.url)")"
+OWNER_NAME="CEnnis91"
 
 OUTPUT_DIR="${SELF_DIR}/Release"
 OUTPUT_FILE="${SELF_NAME}.zip"
@@ -107,7 +117,7 @@ while [[ ! "$INPUT_VERSION" =~ $VALID_VERSION ]]; do
 done
 
 mkdir -p "$OUTPUT_DIR"
-update_fields "$INPUT_VERSION" "$(date +"%Y/%m/%d")"
+update_fields "$INPUT_VERSION" "$(date +"%Y/%m/%d")" "$OWNER_NAME"
 update_self "${SELF_DIR}/${UPDATER_EXE}"
 package_release "$OUTPUT_DIR" "$OUTPUT_FILE"
 
