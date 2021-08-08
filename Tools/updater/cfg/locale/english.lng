@@ -191,6 +191,6 @@ SelfModMethod6=Check Memory & Cache
 SelfModMethod7=Change Memory & cache
 
 // tools dialog
-Tools1=Version: 0.0.0 (0000-00-00)
-Tools2=Author: $Format:%an$
+Tools1=Version: 1.9.9 (2021/08/08)
+Tools2=Author: CEnnis91
 Tools3=Translation: CEnnis91

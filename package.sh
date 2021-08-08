@@ -79,9 +79,6 @@ function update_fields() {
 
 		ini_set "$file" "$section" "$key" "$value"
 	done
-
-	# clear update history from user.cfg
-	sed -i '1,/\[Update_History\]/!d' "Tools/user.cfg"
 }
 
 function update_self() {
@@ -93,6 +90,9 @@ function update_self() {
 		[Ll]inux)	wine cmd.exe /c "$updater -s" ;;
 		*)			$updater "-s" ;;
 	esac
+
+	# clear update history from user.cfg
+	sed -i '1,/\[Update_History\]/!d' "Tools/user.cfg"
 }
 
 # entry point
