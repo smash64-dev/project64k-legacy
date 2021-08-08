@@ -76,15 +76,6 @@ ${key}${delim}${val}"
 	fi
 }
 
-function commit_changes() {
-	local version="$1"
-	local message="Automated: Create release package '${version}'"
-
-	echo "- Committing changes and creating '${version}' tag"
-	git commit -am "$message"
-	git tag -a "$version" -m "$version"
-}
-
 function package_release() {
 	local release_dir="$1"
 	local release_name="$2"
@@ -103,40 +94,47 @@ function package_release() {
 	(cd "$release_dir" && sha1sum "$release_name" > sha1sum.txt)
 }
 
-function prompt_version() {
-	# this regex is not the recommeneded regex for semver, but it will work well enough for basic
-	# https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string
-	local valid_version='^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*).*$'
-
-	local prompt_version=""
-	while [[ ! "$prompt_version" =~ $valid_version ]]; do
-		read -rp "Input a valid 'semver' version name: " prompt_version
-	done
-
-	local version_entries=(
-		'Cfg/tools.cfg|Meta|Version'
-		'Tools/updater.cfg|Package|Version'
-		'Tools/updater/cfg/base/tools.cfg|Meta|Version'
-	)
+function update_fields() {
+	local version="$1"
+	local date="$2"
 
 	local file=''
 	local section=''
 	local key=''
+	local value=''
+
+	# define the package version and date strings
+	local version_entries=(
+		"Cfg/tools.cfg|Meta|Date|${date}"
+		"Cfg/tools.cfg|Meta|Version|${version#v}"
+		"Tools/updater.cfg|Package|Version|${version#v}"
+		"Tools/updater/cfg/base/tools.cfg|Meta|Date|${date}"
+		"Tools/updater/cfg/base/tools.cfg|Meta|Version|${version#v}"
+	)
+
+	# append entires for all relevant lng files
+	local locale_files=''
+	locale_files="$(find . -name "*.lng" | grep -v "template.lng\|locale.lng")"
+	value="Version: ${version#v} (${date})"
+
+	for file in $locale_files; do
+		section="$(grep -o "^\[[^=]\+\]" "$file" | tr -d '[]')"
+		version_entries[${#version_entries[@]}]="${file}|${section}|Tools1|${value}"
+	done
 
 	# change version strings in various ini files
+	echo "- Updating config files to contain the correct version"
 	for entry in "${version_entries[@]}"; do
 		file="$(echo "$entry" | awk -F'|' '{print $1}')"
 		section="$(echo "$entry" | awk -F'|' '{print $2}')"
 		key="$(echo "$entry" | awk -F'|' '{print $3}')"
+		value="$(echo "$entry" | awk -F'|' '{print $4}')"
 
-		ini_val "$file" "${section}.${key}" "${prompt_version#v}"
+		ini_val "$file" "${section}.${key}" "${value}"
 	done
 
-	# change date string while we're changing the version
-	ini_val "Cfg/tools.cfg" "Meta.Date" "$(date +"%Y/%m/%d")"
-	ini_val "Tools/updater/cfg/base/tools.cfg" "Meta.Date" "$(date +"%Y/%m/%d")"
-
-	echo "$prompt_version"
+	# clear update history from user.cfg
+	sed '1,/\[Update_History\]/!d' "Tools/user.cfg"
 }
 
 function update_self() {
@@ -160,11 +158,18 @@ UPDATER_EXE="Tools/package-updater.exe"
 
 cd "$SELF_DIR" || exit
 
-mkdir -p "$OUTPUT_DIR"
-VERSION="$(prompt_version)"
+# this regex is not the recommeneded regex for semver, but it will work well enough for basic
+# https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string
+VALID_VERSION='^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*).*$'
+INPUT_VERSION="$1"
 
+while [[ ! "$INPUT_VERSION" =~ $VALID_VERSION ]]; do
+	read -rp "Input a valid 'semver' version name: " INPUT_VERSION
+done
+
+mkdir -p "$OUTPUT_DIR"
+update_fields "$INPUT_VERSION" "$(date +"%Y/%m/%d")"
 update_self "${SELF_DIR}/${UPDATER_EXE}"
-commit_changes "$VERSION"
 package_release "$OUTPUT_DIR" "$OUTPUT_FILE"
 
 exit 0

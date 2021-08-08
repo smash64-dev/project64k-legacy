@@ -191,6 +191,6 @@ SelfModMethod6=Speicher & Cache prufen
 SelfModMethod7=Speicher & Cache andern
 
 // tools dialog
-Tools1=
-Tools2=
-Tools3=
+Tools1=Version: 0.0.0 (0000-00-00)
+Tools2=Author: $Format:%an$
+Tools3=Translation: u9verse

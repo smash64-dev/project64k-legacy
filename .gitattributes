@@ -1,12 +1,15 @@
 # git archive
 .gitattributes export-ignore
 .gitignore export-ignore
-CHANGELOG.md export-ignore
-README.md export-ignore
+Cfg/locale.lng export-subst
 Cfg/tools.cfg export-subst
+CHANGELOG.md export-ignore
 package.sh export-ignore
+README.md export-ignore
 Release export-ignore
 Resources export-ignore
+Tools/cfg/locale-utf8/*.lng export-subst
+Tools/cfg/locale/*.lng export-subst
 Tools/updater.cfg export-subst
 Tools/user.cfg export-ignore
 # git lfs
