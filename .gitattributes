@@ -33,3 +33,4 @@ Project64KillerOP.exe filter=lfs diff=lfs merge=lfs -text
 Project64KSE.exe filter=lfs diff=lfs merge=lfs -text
 Tools/7za.exe filter=lfs diff=lfs merge=lfs -text
 Tools/package-updater.exe filter=lfs diff=lfs merge=lfs -text
+Tools/kse-launcher.exe filter=lfs diff=lfs merge=lfs -text
