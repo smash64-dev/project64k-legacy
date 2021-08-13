@@ -693,7 +693,7 @@ Cheat11_N=With this option you can calculate exactly how many you need to get on
 //----
 
 [3A6C42B5-1ACADA1B-C:4A]
-Name= Mario Tennis 64 (J)
+Name=Mario Tennis 64 (J)
 Cheat0="Have All\Characters Available",8105DEB8 FFFF
 Cheat1="Have All\Courts Available",8105DEBC FFFF
 Cheat2="Score\Player 1",8014B1DA 00??
@@ -6586,7 +6586,7 @@ Cheat5_N=To Activated thos Cheat Code, Press L To Stop & Press Start to Continue
 //----
 
 [39119872-07722E9F-C:45]
-Name= Pokemon Snap Station (U)
+Name=Pokemon Snap Station (U)
 Cheat0="Press L\To Stop On Tunnel Level",D00489E1 0020,801DDC55 0001
 Cheat1="Press L\To Stop On Volcano Level",D00489E1 0020,801FC5C5 0001
 Cheat2="Press L\To Stop On River Level",D00489E1 0020,801EF96D 0001
@@ -8553,7 +8553,7 @@ Cheat102_N=Replaces: Farooq Spinebuster P2 runs into P1 and P1 delivers a RockBo
 Cheat103_N=Replaces: Underhook Belly to Belly P2 runs into P1 and P1 does a Tazplex to P2.
 Cheat104_N=You must use both parts for this cheat to work
 Cheat105_N=You must use both parts for this cheat to work
-Cheat106_N= Breakable/Fixable/Rebreakable/Refixable press Z to break, C-right + Cdown to fix
+Cheat106_N=Breakable/Fixable/Rebreakable/Refixable press Z to break, C-right + Cdown to fix
 
 //----
 
@@ -10325,7 +10325,7 @@ Cheat4="Unlock Everything",810C01E8 0100
 
 //----
 
-[3CECBCB8-6126BF07-C:50] (E)
+[3CECBCB8-6126BF07-C:50]
 Name=F1 Racing Championship
 Cheat0="No Checkpoint time",81164E1C 0001
 Cheat1="Big Score",81164E58 8181,81164E5A 8181
@@ -13200,7 +13200,7 @@ Cheat102_N=Replaces: Farooq Spinebuster P2 runs into P1 and P1 delivers a RockBo
 Cheat103_N=Replaces: Underhook Belly to Belly P2 runs into P1 and P1 does a Tazplex to P2.
 Cheat104_N=You must use both parts for this cheat to work
 Cheat105_N=You must use both parts for this cheat to work
-Cheat106_N= Breakable/Fixable/Rebreakable/Refixable press Z to break, C-right + Cdown to fix
+Cheat106_N=Breakable/Fixable/Rebreakable/Refixable press Z to break, C-right + Cdown to fix
 
 //----
 
@@ -14202,7 +14202,7 @@ Cheat48_N=This cheat slot is reserved for future use by Project64 KSE
 Cheat49=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat49_N=This cheat slot is reserved for future use by Project64 KSE
 Cheat4_N=Disables music, duh.
-Cheat5="---  3. Useful Cheats  ---\Boomputer",800A4AD0 0003
+Cheat5="---  3. Useful Cheats  ---\Boomputer",800A4BAE 0000
 Cheat5_N=Lets Player 2 control the CPUs in single player mode. -- As of 06/2020, no one has actually completed this challenge without continues against the real Boom.
 Cheat6="---  3. Useful Cheats  ---\Range Test",800A4AD0 0003
 Cheat6_N=On reset, it jumps to a hidden developer menu that lets you test controller range. Press Z to enter. Nick is a genius.
