@@ -1,0 +1,12 @@
+[D2333611-D4CEB764-C:45]
+Good Name=Mario Kart 64 (U) [Netplay Build]
+Internal Name=MK64 NETPLAY
+Counter Factor=2
+CPU Type=Recompiler
+Self-modifying code Method=Cache
+Use Large Buffer=No
+Status=Compatible
+Plugin Note=[video] (see GameFAQ)
+Self Texture=0
+Culling=1
+Reg Cache=No

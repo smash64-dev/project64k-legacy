@@ -15104,3 +15104,16 @@ SMM-FUNC=0
 SMM-TLB=0
 Status=Compatible
 ViRefresh=2200
+
+[D2333611-D4CEB764-C:45]
+Counter Factor=2
+CPU Type=Recompiler
+Culling=1
+Good Name=Mario Kart 64 (U) [Netplay Build]
+Internal Name=MK64 NETPLAY
+Plugin Note=[video] (see GameFAQ)
+Reg Cache=No
+Self Texture=0
+Self-modifying code Method=Cache
+Status=Compatible
+Use Large Buffer=No
