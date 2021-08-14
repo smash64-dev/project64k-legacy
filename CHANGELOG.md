@@ -1,8 +1,28 @@
 # Changelog
 
-## [1.9.9] - 2021-08-08
+## [2.0.0] - 2021-08-14
 
-TODO: Unofficial beta release
+### Added
+
+- Automatic update checks, in the background
+- Dedicated menu item for the updater
+- Support for more external tools via Open Tools menu (coming soon!)
+- Integrated Killer OP support (A popup will offer to close other KSE at launch)
+- German translation, courtesy of u9verse
+
+### Changed
+
+- Removed "You must close the the Kaillera windows first" popup
+- The ROM list automatically refreshes on launch
+- Small status bar tweaks, FPS will only show ##.# now
+- Made a few more menu items translatable
+- Tweaked a few cheat notes
+
+### Fixed
+
+- Boomputer cheat was incorrect
+- Kaillera windows will not disappear when changing monitors anymore
+- Bug where Project64KSE wouldn't close during update
 
 ## [1.9.0] - 2021-06-08
 
@@ -94,3 +114,4 @@ TODO: Unofficial beta release
 [1.7.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.7.1
 [1.8.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.8.0
 [1.9.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.9.0
+[2.0.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.0.0
