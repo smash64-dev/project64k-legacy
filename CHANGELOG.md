@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.0] - 2021-09-12
+
+### Added
+
+- P2P NAT traversal support via autopunch v0.0.4
+
+### Fixed
+
+- Incorrect spellings of German words with umlauts and eszetts
+
 ## [2.0.0] - 2021-08-14
 
 ### Added
@@ -115,3 +125,4 @@
 [1.8.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.8.0
 [1.9.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v1.9.0
 [2.0.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.0.0
+[2.1.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.1.0
