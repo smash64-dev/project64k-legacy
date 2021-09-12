@@ -4,7 +4,7 @@
 
 ### Added
 
-- P2P NAT traversal support via autopunch v0.0.4
+- [Beta] P2P NAT traversal support via autopunch v0.0.4
 
 ### Fixed
 
