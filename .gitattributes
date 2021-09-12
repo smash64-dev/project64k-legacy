@@ -36,3 +36,4 @@ Tools/package-updater.exe filter=lfs diff=lfs merge=lfs -text
 Tools/kse-launcher.exe filter=lfs diff=lfs merge=lfs -text
 # eol
 package.sh eol=lf
+Tools/autopunch.win64.exe filter=lfs diff=lfs merge=lfs -text
