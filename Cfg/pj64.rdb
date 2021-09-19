@@ -15117,3 +15117,15 @@ Self Texture=0
 Self-modifying code Method=Cache
 Status=Compatible
 Use Large Buffer=No
+
+[FD0E716E-FB029C8E-C:45]
+Counter Factor=1
+Culling=1
+Good Name=SmashRemix1.0.0
+Internal Name=SmashRemix
+RDRAM Size=8
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Status=Compatible
+ViRefresh=2200
