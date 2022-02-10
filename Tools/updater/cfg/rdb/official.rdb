@@ -10,7 +10,7 @@ SMM-TLB=0
 Use TLB=No
 RDRAM Size=8
 ViRefresh=2200
-Self-modifying code Method=Protected
+Self-modifying code Method=Change Memory
 
 [DD26FDA1-CB4A6BE3-C:55]
 Good Name=Super Smash Bros. (A) [!]
