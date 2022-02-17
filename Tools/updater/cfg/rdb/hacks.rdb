@@ -314,3 +314,15 @@ SMM-FUNC=0
 SMM-TLB=0
 RDRAM Size=8
 ViRefresh=2200
+
+[FB816D35-3FC67AFF-C:45]
+Good Name=SmashRemix1.1.1
+Internal Name=SmashRemix
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200

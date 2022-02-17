@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.3] - 2022-02-17
+
+### Added
+
+- SmashRemix 1.1.1 to RDB
+
 ## [2.2.2] - 2022-02-10
 
 ### Added
@@ -151,3 +157,4 @@
 [2.2.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.0
 [2.2.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.1
 [2.2.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.2
+[2.2.3]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.3
