@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0] - 2022-07-31
+
+### Added
+
+- SmashRemix 1.2.0 to RDB
+- Experimental stream tool for Remix 1.2.0+
+
 ## [2.2.3] - 2022-02-17
 
 ### Added

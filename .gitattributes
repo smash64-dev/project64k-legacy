@@ -34,6 +34,7 @@ Project64KSE.exe filter=lfs diff=lfs merge=lfs -text
 Tools/7za.exe filter=lfs diff=lfs merge=lfs -text
 Tools/package-updater.exe filter=lfs diff=lfs merge=lfs -text
 Tools/kse-launcher.exe filter=lfs diff=lfs merge=lfs -text
+Tools/stream-tool.exe filter=lfs diff=lfs merge=lfs -text
 # eol
 package.sh eol=lf
 Tools/autopunch.win64.exe filter=lfs diff=lfs merge=lfs -text
