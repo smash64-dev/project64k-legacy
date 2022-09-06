@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.2] - 2022-09-07
+
+### Added
+
+- SmashRemix 1.2.2 to RDB
+
 ## [2.3.1] - 2022-08-29
 
 ### Added
