@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.3.2] - 2022-09-07
+## [2.3.3] - 2022-09-07
 
 ### Added
 
@@ -177,3 +177,6 @@
 [2.2.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.1
 [2.2.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.2
 [2.2.3]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.2.3
+[2.3.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.3.0
+[2.3.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.3.1
+[2.3.3]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.3.3
