@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.4.0] - 2023-02-01
+
+### Added
+
+- SmashRemix 1.3.0 to RDB
+
+### Fixed
+
+- Potentially fixed Smash Remix crashing on open
+- Windows 7: Updater crashing when opening
+
 ## [2.3.3] - 2022-09-07
 
 ### Added
