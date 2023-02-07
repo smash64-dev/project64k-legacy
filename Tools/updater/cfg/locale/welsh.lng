@@ -1,0 +1,195 @@
+// welsh.lng
+
+[Cymraeg (Welsh)]
+Author=Plague von Karma
+Version=1.0
+Date=2023/02/07
+
+// file menu
+MenuTitle1=&Ffeil
+FileItem1=&Agor ROM
+MenuDes1=Agor ROM
+FileItem2=ROM &Gwybodaeth...
+MenuDes2=ROM Gwybodaeth...
+FileItem3=&Dechrau Efelychiad
+MenuDes3=Dechrau Efelychiad
+FileItem4=&Diwedd Efelychiad
+MenuDes4=Diwedd Efelychiad
+FileItem5=Dechrau &Rhwyd Chwarae...
+FileItem6=Dewis Cyfeiriadur ROM...
+MenuDes26=Dewis Cyfeiriadur ROM...
+FileItem7=Adfywio Rhestr ROM
+MenuDes13=Adfywio Rhestr ROM
+FileItem8=Dwieddar ROM
+MenuDes11=Dwieddar ROM
+FileItem9=Dwieddar Cyfeiriadurau ROM
+MenuDes14=Dwieddar Cyfeiriadurau ROM
+FileItem10=&Diweddariad Efelychydd...
+FileItem11=Agor &Offer...
+
+// system menu
+MenuTitle2=&System
+SystemItem1=Ail &Gychwyn
+MenuDes6=Ail Gychwyn
+SystemItem2=&Aros
+MenuDes7=Aros/Ailddechrau
+SystemItem3=Cynhyrchu Bitmap
+MenuDes15=Cynhyrchu Bitmap
+SystemItem4=&Cadw
+MenuDes8=Cadw
+SystemItem5=&Adfer
+MenuDes9=Adfer
+SystemItem6=Arbed C&yflwr Presennol
+SystemItem7=Cadw Fel...
+MenuDes17=Cadw Fel...
+SystemItem8=Llwytho...
+MenuDes12=Llwytho...
+SystemItem9=Cyfynu FPS
+MenuDes16=Cyfynu FPS
+SaveSlotItem1=Diofyn
+SaveSlotItem2=1 Slot
+SaveSlotItem3=2 Slot
+SaveSlotItem4=3 Slot
+SaveSlotItem5=4 Slot
+SaveSlotItem6=5 Slot
+SaveSlotItem7=6 Slot
+SaveSlotItem8=7 Slot
+SaveSlotItem9=8 Slot
+SaveSlotItem10=9 Slot
+SaveSlotItem11=10 Slot
+
+// options menu
+MenuTitle3=&Gosodiadau
+OptionsItem1=Sgrin &Llawn
+MenuDes18=Sgrin Llawn
+OptionsItem2=Ffurfweddu Ategyn Graffeg...
+MenuDes19=Ffurfweddu Ategyn Graffeg...
+OptionsItem3=Ffurfweddu Ategyn RSP...
+MenuDes20=Ffurfweddu Ategyn RSP...
+OptionsItem4=Ffurfweddu Ategyn Sain...
+MenuDes21=Ffurfweddu Ategyn Sain...
+OptionsItem5=Ffurfweddu Ategyn Rheolwr...
+MenuDes22=Ffurfweddu Ategyn Rheolwr...
+OptionsItem6=Codau Gameshark
+MenuDes24=Codau Gameshark
+OptionsItem7=&Gosodiadau...
+MenuDes25=Gosodiadau...
+OptionsItem9=Dangos Defnydd CPU %
+MenuDes23=Dangos Defnydd CPU %
+
+// language menu
+MenuTitle5=Iaith
+
+// help menu
+MenuTitle4=&Helpu
+HelpItem1=
+HelpItem2=&Cynnwys...
+HelpItem3=&Mynegai...
+HelpItem4=Am PJ64KSE
+MenuDes10=Am PJ64KSE
+
+// settings plugins tab
+SettingsTab1=Ategyn
+PluginType1=Realiti Signal Prosesydd
+PluginType2=Graffegau
+PluginType3=Sain
+PluginType4=Rheolwr
+AboutButton=Am
+
+// settings directories tab
+SettingsTab2=Cyfeiriadurau
+StoreDirName1=Cyfeiriadur Ategyn
+StoreDirName2=Cyfeiriadur ROM
+StoreDirName3=Cadw awtomatig N64
+StoreDirName4=Cadw amrantiad
+StoreDirName5=Sghrinlun
+DefaultRomDir=Ffolder diwethaf a defnyddiwyd
+
+// settings rom selection tab
+SettingsTab5=Detholiad ROM
+RomBrowserField1=Enw Ffeil
+RomBrowserField10=Gwneuthurwr
+RomBrowserField11=Gwlad
+RomBrowserField12=Datblygwr
+RomBrowserField13=CRC1
+RomBrowserField14=CRC2
+RomBrowserField15=Naddu CIC
+RomBrowserField16=Dyddiad Rhyddhau
+RomBrowserField17=Ffurf Ienyddol
+RomBrowserField18=Chwaraewyr
+RomBrowserField2=Enw Mewnol
+RomBrowserField3=Enu Da
+RomBrowserField4=Statws
+RomBrowserField5=Maint ROM
+RomBrowserField6=Nodiadau (Craidd)
+RomBrowserField7=Nodiadau (Ategyn Diofyn)
+RomBrowserField8=Nodiadau (Defnyddiwr)
+RomBrowserField9=ID Certris
+RomSelText1=Uchafswm # o ROMs cof (Uchafswm 10):
+RomSelText2=Roms
+RomSelText3=Uchafswm # o cyfeiriadurau ROMs cof (Uchafswm 10):
+RomSelText4=Dirs
+RomSelText5=Defnyddio Porwr ROM
+RomSelText6=Defnyddio Ailgyrch cyfeiriadur
+RomSelText7=Ar gael maes
+RomSelText8=Dangos maes yn y drefn hon:
+RomSelText9=Ychwanegu ->
+RomSelText10=<- Gwared
+RomSelText11=I fyny
+RomSelText12=I lawr
+
+// settings options tab
+SettingsTab3=Gosodiadau
+OptionsText1=Ni fydd y rhan fwyaf o'r newidiadau hyn yn dod i rym nes bod ROM newydd yn cael ei agor neu'r ROM cyfredol yn cael ei ailosod.
+OptionsText2=Dechrau Efelychiad pryd ROM yn agor?
+OptionsText3=Saib Efelychiad pryd'r ffenestr ddim gweithgar?
+OptionsText5=Bob amser trosysgrifo gosodiadau diofyn gyda rhai o'r .ini?
+OptionsText6=CPU steil craidd:
+OptionsText7=Hunan-fod dull cod:
+OptionsText8=Maint Cof Diofyn:
+OptionsText12=Cywasgu yn awtomatig cadwau amrantiad
+OptionsText13=Pryd llwytho ROM mynd i sgrin llawn
+OptionsText14=Cysylltu Bloc Uwch:
+
+// settings rom settings tab
+SettingsTab4=Gosodiadau ROM
+RomOptionsText1=Cof Maint:
+RomOptionsText2=Math cadw diofyn:
+RomOptionsText3=CPU steil craidd:
+RomOptionsText4=Hunan-fod dull cod
+RomOptionsText6=Defynyddio TLB
+RomOptionsText8=Cysylltu Bloc Uwch
+RomOptionsText9=Byffer Llunio Mawr
+RomOptionsText10=Cofrestrgelcio
+CounterFactor1=Diofyn
+
+// settings shell integration tab
+SettingsTab6=Integreiddio Plisgyn
+ShellIntegration1=Estyniad ffeil cymdeithas:
+
+// settings generic
+AdvBlokLink1=Gosodiadau Byd-Eang
+AdvBlokLink2=Ymlaen
+AdvBlokLink3=I ffwrdd
+CPUType1=Diofyn
+CPUType2=Cyfieithydd
+CPUType3=Casglwr ail-wneud
+RDRAMSize1=Diofyn
+RDRAMSize2=4 MB
+RDRAMSize3=8 MB
+SaveType1=Defnyddio yn Gyntaf Math Cadw
+SaveType2=4kbit EepROM
+SaveType3=16kbit EepROM
+SaveType4=32kbytes SRAM
+SaveType5=RAMfflach
+SelfModMethod1=Diofyn
+SelfModMethod2=Dim
+SelfModMethod3=Celc
+SelfModMethod4=Amddiffyn Cof
+SelfModMethod6=Gwirio Cof a Celc
+SelfModMethod7=Newid Cof a Celc
+
+// tools dialog
+Tools1=
+Tools2=
+Tools3=
