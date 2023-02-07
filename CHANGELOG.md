@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.2] - 2023-02-07
+
+### Added
+
+- SmashRemix 1.3.1 to RDB
+- 19XX 1.6 (TE, CE, & NE) to RDB
+- Welsh translation, courtesy of Plague von Karma
+
 ## [2.4.0] - 2023-02-01
 
 ### Added
@@ -191,3 +199,5 @@
 [2.3.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.3.0
 [2.3.1]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.3.1
 [2.3.3]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.3.3
+[2.4.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.0
+[2.4.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.2
