@@ -15213,3 +15213,27 @@ SMM-FUNC=0
 SMM-TLB=0
 Status=Compatible
 ViRefresh=2200
+
+[4FC698B5-517251D4-C:45]
+Counter Factor=1
+Culling=1
+Good Name=19XXCE 1.6 (U)
+Internal Name=19XX
+RDRAM Size=8
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Status=Compatible
+ViRefresh=2200
+
+[50BB7AAB-79719420-C:45]
+Counter Factor=1
+Culling=1
+Good Name=19XXTE 1.6 (U)
+Internal Name=19XX
+RDRAM Size=8
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+Status=Compatible
+ViRefresh=2200
