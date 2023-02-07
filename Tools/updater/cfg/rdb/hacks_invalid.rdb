@@ -1,0 +1,26 @@
+// 19XXTE- 1.6 and 19XXTE- 1.6 have the same internal CRCs
+// excluding these as they would immediately desync over netplay
+
+[50BB740B-D772B4BD-C:45]
+Good Name=19XXTE- 1.6 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
+
+[50BB740B-D772B4BD-C:45]
+Good Name=19XXTE+ 1.6 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200

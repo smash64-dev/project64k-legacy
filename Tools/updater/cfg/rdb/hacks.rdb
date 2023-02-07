@@ -374,3 +374,51 @@ SMM-FUNC=0
 SMM-TLB=0
 RDRAM Size=8
 ViRefresh=2200
+
+[4FC698B5-517251D4-C:45]
+Good Name=19XXCE 1.6 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
+
+[4FC698B5-517251D4-C:45]
+Good Name=19XXNE 1.6 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
+
+[50BB7AAB-79719420-C:45]
+Good Name=19XXTE 1.6 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
+
+[50BB7AAB-79719420-C:45]
+Good Name=19XXG6 1.6 (U)
+Internal Name=19XX
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+ViRefresh=2200
