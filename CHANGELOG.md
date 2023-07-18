@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.4] - 2023-07-16
+
+### Added
+
+- SmashRemix 1.4.1 to RDB
+
 ## [2.4.3] - 2023-06-30
 
 ### Added
@@ -208,3 +214,4 @@
 [2.4.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.0
 [2.4.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.2
 [2.4.3]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.3
+[2.4.4]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.4
