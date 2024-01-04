@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.5.0] - 2024-01-04
+
+### Added
+
+- SmashRemix 1.5.0 to RDB
+
+### Fixed
+
+- Timer with Stocks cheat in vanilla
+
 ## [2.4.4] - 2023-07-16
 
 ### Added
@@ -215,3 +225,4 @@
 [2.4.2]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.2
 [2.4.3]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.3
 [2.4.4]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.4.4
+[2.5.0]: https://github.com/smash64-dev/project64k-legacy/releases/tag/v2.5.0
