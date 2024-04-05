@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.1] - 2024-04-05
+
+### Added
+
+- SmashRemix 1.5.1 to RDB
+
 ## [2.5.0] - 2024-01-04
 
 ### Added
