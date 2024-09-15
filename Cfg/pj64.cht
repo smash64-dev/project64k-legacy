@@ -13190,7 +13190,8 @@ Cheat0_N=This is needed to be able to Play all Levels of the Game
 //End Of File---------->Anything under here was put in by you<--------------------------------
 
 [67D20729-F696774C-C:4A]
-Cheat0="Have All Characters",810A28F8 0FF0
+Cheat0="---  1. Netplay Required  ---\Unlock Everything",810A4938 0FF0,800A4937 00FF
+Cheat0_N=Unlocks all characters, mushroom kingdom, item switch, and sound test.
 Cheat1="VS. Mode\Have Mushroom Kindom",800A28F7 00FF
 Cheat10=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat10_N=This cheat slot is reserved for future use by PJ64KSE
