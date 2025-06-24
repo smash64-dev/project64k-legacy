@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.3] - 2025-06-24
+
+### Fixed
+
+- Removed stream-tool.exe to stop antivirus false positive
+
 ## [2.5.2] - 2024-04-24
 
 ### Added
