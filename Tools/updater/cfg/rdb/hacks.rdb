@@ -496,3 +496,29 @@ SMM-TLB=0
 RDRAM Size=8
 Use TLB=No
 ViRefresh=2200
+
+[D68CEFC0-0B81D955-C:45]
+Good Name=SmashRemix2.0.0
+Internal Name=SmashRemix
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+Use TLB=No
+ViRefresh=2200
+
+[2052F0EC-210BEC9C-C:45]
+Good Name=SmashRemix2.0.0 (PAL60)
+Internal Name=SmashRemix
+Status=Compatible
+Counter Factor=1
+Culling=1
+SMM-Cache=0
+SMM-FUNC=0
+SMM-TLB=0
+RDRAM Size=8
+Use TLB=No
+ViRefresh=2200

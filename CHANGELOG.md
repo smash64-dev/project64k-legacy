@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.6.0] - 2025-06-25
+
+### Added
+
+- SmashRemix 2.0.0 to RDB
+
+### Fixed
+
+- Fix 'Unlock Everything' cheat in J, A, and E, courtesy of sjg5509
+- Removed stream-tool.exe to stop antivirus false positive
+
 ## [2.5.3] - 2025-06-24
 
 ### Fixed
