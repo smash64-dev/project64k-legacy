@@ -1,7 +1,8 @@
 
 [67D20729-F696774C-C:4A]
 Name=Nintendo All-Star! Dairantou Smash Brothers (J)
-Cheat0="Have All Characters",810A28F8 0FF0
+Cheat0="---  1. Netplay Required  ---\Unlock Everything",810A4938 0FF0,800A4937 00FF
+Cheat0_N=Unlocks all characters, mushroom kingdom, item switch, and sound test.
 Cheat1="VS. Mode\Have Mushroom Kindom",800A28F7 00FF
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
@@ -64,7 +65,8 @@ Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
 
 [DD26FDA1-CB4A6BE3-C:55]
 Name=Super Smash Bros. (A) [!]
-Cheat0="Have All Characters",810A5078 0FF0
+Cheat0="---  1. Netplay Required  ---\Unlock Everything",810A4938 0FF0,800A4937 00FF
+Cheat0_N=Unlocks all characters, mushroom kingdom, item switch, and sound test.
 Cheat1="VS. Mode\Have Mushroom Kindom",800A5077 00FF
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
@@ -127,7 +129,8 @@ Cheat29_N=This cheat slot is reserved for future use by PJ64KSE
 
 [93945F48-5C0F2E30-C:50]
 Name=Super Smash Bros. (E) [!]
-Cheat0="Have All Characters",810AD198 0FF0
+Cheat0="---  1. Netplay Required  ---\Unlock Everything",810A4938 0FF0,800A4937 00FF
+Cheat0_N=Unlocks all characters, mushroom kingdom, item switch, and sound test.
 Cheat1="VS. Mode\Have Mushroom Kindom",800AD197 00FF
 Cheat2=". -------------------------------------- .\ \Reserved for PJ64KSE",80FFFFFF 0000
 Cheat2_N=This cheat slot is reserved for future use by PJ64KSE
